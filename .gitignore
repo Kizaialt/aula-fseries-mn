@@ -1,0 +1,4 @@
+installers/
+.work/
+*.pyc
+__pycache__/
