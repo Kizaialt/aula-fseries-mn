@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<device.info>
+		<keyboard name="AULA F106Pro" device_type="101" device_info="rgb-keyboard" img_connected="home_keyboard_connected.png" img_disconnected="home_keyboard_disconnected.png">
+			<mode value="0" desc="USB" vid="0C45" pid="800A" product_name="J104 Pro" hid_interface="VID_0C45&PID_800A&MI_00"/>
+			<mode value="2" desc="2.4G TYPE-A" vid="05AC" pid="024F" product_name="KB104 Dongle" hid_interface="VID_05AC&PID_024F&MI_03"/>
+		</keyboard>
+	</device.info>
+	<language.info default_lan="1104">
+		<lan value="1104" />
+		<lan value="2052" />
+		<lan value="1033" />
+		<lan value="1028" />
+	</language.info>
+	<software name="AULA F106Pro Driver" version="Beta 1.0.0.0">
+		<website url=""/>
+		<store url=""/>
+		<upgrade url=""/>
+		<copyright info="Copyright © 2025 东莞市索艾电子科技有限公司"/>
+	</software>
+</config>

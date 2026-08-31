@@ -1,0 +1,199 @@
+{
+ "model": "gpt-4o",
+ "source": "C:/Users/kizai/AppData/Local/Temp/kysona_mn.json",
+ "reviewed": 209,
+ "findings": [
+  {
+   "en": "Debounce Time",
+   "current": "Доргилтын хугацаа",
+   "suggested": "Доргилтын саатал",
+   "why": "The term 'debounce' refers to a delay to prevent repeated signals, so 'саатал' is more accurate than 'хугацаа'."
+  },
+  {
+   "en": "Motion sync",
+   "current": "Хөдөлгөөний синхрон",
+   "suggested": "Хөдөлгөөн синхрончлох",
+   "why": "The term 'sync' is better translated as 'синхрончлох' to indicate the action of synchronizing."
+  },
+  {
+   "en": "Report Rate",
+   "current": "Дуудлагын давтамж",
+   "suggested": "Тайлангийн давтамж",
+   "why": "The term 'Report Rate' is more accurately translated as 'Тайлангийн давтамж' to reflect the reporting frequency."
+  },
+  {
+   "en": "DPI Light Effects",
+   "current": "DPI гэрлийн эффект",
+   "suggested": "DPI гэрэлтүүлгийн эффект",
+   "why": "The term 'Light Effects' should be translated as 'гэрэлтүүлгийн эффект' to be consistent with the established terminology."
+  },
+  {
+   "en": "Times of cycles",
+   "current": "Давтах тоо",
+   "suggested": "Давталтын тоо",
+   "why": "The phrase 'Times of cycles' is more naturally translated as 'Давталтын тоо'."
+  },
+  {
+   "en": "Keys List",
+   "current": "Товчны жагсаалт",
+   "suggested": "Товчлуурын жагсаалт",
+   "why": "The term 'Keys' should be translated as 'Товчлуур' to be consistent with the established terminology."
+  },
+  {
+   "en": "OFF",
+   "current": "Унтраалттай",
+   "suggested": "Унтраах",
+   "why": "The current translation 'Унтраалттай' implies a state of being off, rather than the action or command to turn off."
+  },
+  {
+   "en": "Drive ver：",
+   "current": "Драйверын хувилбар：",
+   "suggested": "Драйверын хувилбар:",
+   "why": "The colon should be a standard colon ':' instead of a full-width colon '：' for consistency."
+  },
+  {
+   "en": "Receiver Firmware ver：",
+   "current": "Хүлээн авагчийн фирмвэр：",
+   "suggested": "Хүлээн авагчийн фирмвэр:",
+   "why": "The colon should be a standard colon ':' instead of a full-width colon '：' for consistency."
+  },
+  {
+   "en": "Mouse Firmware ver：",
+   "current": "Хулганы фирмвэр：",
+   "suggested": "Хулганы фирмвэр:",
+   "why": "The colon should be a standard colon ':' instead of a full-width colon '：' for consistency."
+  },
+  {
+   "en": "No Resources Files",
+   "current": "Нөөц файл олдсонгүй",
+   "suggested": "Нөөц файлууд олдсонгүй",
+   "why": "The plural form 'файлууд' is more appropriate for 'Files'."
+  },
+  {
+   "en": "Import File Is Error",
+   "current": "Оруулж буй файл алдаатай байна",
+   "suggested": "Оруулсан файл алдаатай байна",
+   "why": "The phrase 'Оруулж буй файл' is less natural than 'Оруулсан файл'."
+  },
+  {
+   "en": "Please enter keystroke",
+   "current": "Товчийг дарна уу",
+   "suggested": "Товчлуурыг дарна уу",
+   "why": "The term 'товчлуур' is more consistent with the established terminology for 'key'."
+  },
+  {
+   "en": "Switch config is not supported",
+   "current": "Тохиргоо солих боломжгүй",
+   "suggested": "Свичийн тохиргоо дэмжигдэхгүй байна",
+   "why": "The term 'switch' should be translated as 'свич' according to the glossary."
+  },
+  {
+   "en": "If multiple devices are the same，Reserve devices that need to be operated",
+   "current": "Хэрэв ижил төхөөрөмж олон байвал ашиглах шаардлагатайг нь үлдээнэ үү",
+   "suggested": "Ижил төхөөрөмж олон бол ашиглах шаардлагатайг нь үлдээнэ үү",
+   "why": "The translation should maintain the conditional structure of the original."
+  },
+  {
+   "en": "Whether you need to repair",
+   "current": "Дахин хослуулах шаардлагатай юу?",
+   "suggested": "Засах шаардлагатай юу?",
+   "why": "The original text refers to 'repair', not 'pair'."
+  },
+  {
+   "en": "Move Up",
+   "current": "Дээш",
+   "suggested": "Дээш хөдөлгөх",
+   "why": "The translation should include the action 'move'."
+  },
+  {
+   "en": "Move Down",
+   "current": "Доош",
+   "suggested": "Доош хөдөлгөх",
+   "why": "The translation should include the action 'move'."
+  },
+  {
+   "en": "Windows Mouse Properties",
+   "current": "Windows хулганы тохиргоо",
+   "suggested": "Windows хулгана тохиргоо",
+   "why": "The term 'хулганы' should be 'хулгана' to match the structure of the English phrase."
+  },
+  {
+   "en": "Found mouse new firmware, please update in wired!",
+   "current": "Хулганы шинэ фирмвэр олдлоо, утастай горимд шинэчилнэ үү!",
+   "suggested": "Хулганы шинэ фирмвэр олдлоо, утастай шинэчилнэ үү!",
+   "why": "The phrase 'утастай горимд' can be shortened to 'утастай' for brevity."
+  },
+  {
+   "en": "motion sync",
+   "current": "хөдөлгөөний синхрон",
+   "suggested": "хөдөлгөөн синхрон",
+   "why": "The term 'хөдөлгөөний' should be 'хөдөлгөөн' to match the structure of the English phrase."
+  },
+  {
+   "en": "Polling Rate Switch",
+   "current": "Давтамж солих",
+   "suggested": "Дуудлагын давтамж солих",
+   "why": "The term 'Polling Rate' should be translated as 'Дуудлагын давтамж' to match the glossary."
+  },
+  {
+   "en": "Media Key",
+   "current": "Медиа товч",
+   "suggested": "Медиа товчлуур",
+   "why": "Consistent with the established terminology for 'key' as 'товчлуур'."
+  },
+  {
+   "en": "Media Player",
+   "current": "Тоглуулагч",
+   "suggested": "Медиа тоглуулагч",
+   "why": "To specify that it is a media player, not just any player."
+  },
+  {
+   "en": "Volume Up",
+   "current": "Дуу +",
+   "suggested": "Дууг нэмэх",
+   "why": "To be more explicit and natural in the context of volume control."
+  },
+  {
+   "en": "Volume Down",
+   "current": "Дуу -",
+   "suggested": "Дууг багасгах",
+   "why": "To be more explicit and natural in the context of volume control."
+  },
+  {
+   "en": "Web Forward",
+   "current": "Хөтөч урагш",
+   "suggested": "Вэб урагш",
+   "why": "To be more consistent with the term 'Web'."
+  },
+  {
+   "en": "Web Back",
+   "current": "Хөтөч буцах",
+   "suggested": "Вэб буцах",
+   "why": "To be more consistent with the term 'Web'."
+  },
+  {
+   "en": "Favorites",
+   "current": "Хавчуурга",
+   "suggested": "Дуртай",
+   "why": "To be more consistent with the common term for 'Favorites'."
+  },
+  {
+   "en": "All Lights On/Off",
+   "current": "Бүх гэрэл асаах/унтраах",
+   "suggested": "Бүх гэрлийг асаах/унтраах",
+   "why": "To be more explicit and natural in the context of lighting control."
+  },
+  {
+   "en": "Light Strip On/Off",
+   "current": "Гэрлийн туйван асаах/унтраах",
+   "suggested": "Гэрлийн тууз асаах/унтраах",
+   "why": "To be more explicit and natural in the context of lighting control."
+  },
+  {
+   "en": "Loop switch light effects",
+   "current": "Гэрлийн эффект дараалан солих",
+   "suggested": "Гэрлийн эффектүүдийг дараалан солих",
+   "why": "To be more explicit and natural in the context of switching light effects."
+  }
+ ]
+}

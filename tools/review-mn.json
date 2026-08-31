@@ -1,0 +1,415 @@
+{
+ "model": "gpt-4o",
+ "source": "tools/mn.json",
+ "reviewed": 253,
+ "findings": [
+  {
+   "en": "Config",
+   "current": "Тохиргоо",
+   "suggested": "Конфиг",
+   "why": "The term 'Config' is commonly used in English among gamers and should be left untranslated."
+  },
+  {
+   "en": "OK",
+   "current": "За",
+   "suggested": "ОК",
+   "why": "The term 'OK' is commonly used in English and should be left untranslated."
+  },
+  {
+   "en": "A new version of firmware is detected, do you want to update or not?\n(Note: During the update process, please do not close the window and unplug the keyboard. After the successful upgrade, please manually unplug the keyboard once)",
+   "current": "Шинэ фирмвэр илэрлээ. Шинэчлэх үү? (Шинэчилсний дараа гараа салгаад дахин залгана уу)",
+   "suggested": "Шинэ фирмвэр илэрлээ. Шинэчлэх үү? (Шинэчлэх явцад цонхыг хааж, гар салгаж болохгүй. Амжилттай шинэчилсний дараа гараа салгаад дахин залгана уу)",
+   "why": "The translation is missing important details about not closing the window and unplugging the keyboard during the update."
+  },
+  {
+   "en": "Record",
+   "current": "Бичиж эхлэх",
+   "suggested": "Бичих",
+   "why": "The translation 'Бичиж эхлэх' is too long for a button label. 'Бичих' is more concise and appropriate."
+  },
+  {
+   "en": "Stop",
+   "current": "Тоглуулахыг зогсоох",
+   "suggested": "Зогсоох",
+   "why": "The translation 'Тоглуулахыг зогсоох' is incorrect. 'Зогсоох' is the correct translation for 'Stop'."
+  },
+  {
+   "en": "Edit",
+   "current": "Макро засах",
+   "suggested": "Засах",
+   "why": "The translation 'Макро засах' is too specific. 'Засах' is more general and appropriate for 'Edit'."
+  },
+  {
+   "en": "Start",
+   "current": "Эхлэх хугацаа",
+   "suggested": "Эхлэх",
+   "why": "The translation 'Эхлэх хугацаа' is too long for a button label. 'Эхлэх' is more concise and appropriate."
+  },
+  {
+   "en": "End",
+   "current": "Дуусах хугацаа",
+   "suggested": "Дуусах",
+   "why": "The translation 'Дуусах хугацаа' is too long for a button label. 'Дуусах' is more concise and appropriate."
+  },
+  {
+   "en": "Delay",
+   "current": "Дараа нь хүлээх",
+   "suggested": "Саатал",
+   "why": "The translation 'Дараа нь хүлээх' is too long. 'Саатал' is more concise and consistent with the glossary."
+  },
+  {
+   "en": "Automatic detection",
+   "current": "Системийг автоматаар таних",
+   "suggested": "Автоматаар илрүүлэх",
+   "why": "The current translation is too specific and not a direct translation of 'Automatic detection'."
+  },
+  {
+   "en": "Fixed_on",
+   "current": "Тогтмол асаалт",
+   "suggested": "Тогтмол асаалттай",
+   "why": "The translation should reflect the continuous state implied by 'Fixed_on'."
+  },
+  {
+   "en": "Rainbow",
+   "current": "Мөрөөдлийн солонго",
+   "suggested": "Солонго",
+   "why": "The current translation is too poetic and not a direct translation of 'Rainbow'."
+  },
+  {
+   "en": "Ripples_shining",
+   "current": "Давалгаа тарах",
+   "suggested": "Гялалзах давалгаа",
+   "why": "The current translation does not convey the 'shining' aspect."
+  },
+  {
+   "en": "Shadow_disappear",
+   "current": "Мөр үлдээхгүй",
+   "suggested": "Сүүдэр арилгах",
+   "why": "The current translation does not accurately convey 'disappear'."
+  },
+  {
+   "en": "Retro_snake",
+   "current": "Тасралтгүй урсгал",
+   "suggested": "Ретро могой",
+   "why": "The current translation does not reflect the 'snake' aspect."
+  },
+  {
+   "en": "Reaction",
+   "current": "Сүүдэр мэт дагах",
+   "suggested": "Хариу үйлдэл",
+   "why": "The current translation is not a direct translation of 'Reaction'."
+  },
+  {
+   "en": "Retinue scanning",
+   "current": "Хажуу тийш скан",
+   "suggested": "Дагалдан скан",
+   "why": "The current translation does not accurately convey 'Retinue'."
+  },
+  {
+   "en": "Self-define",
+   "current": "Өөрийн тохируулга",
+   "suggested": "Өөрөө тодорхойлох",
+   "why": "The current translation is not a direct translation of 'Self-define'."
+  },
+  {
+   "en": "Favorites",
+   "current": "Хавчуурга",
+   "suggested": "Тэмдэглэсэн",
+   "why": "The current translation is not a direct translation of 'Favorites'."
+  },
+  {
+   "en": "Home page",
+   "current": "Хөтөч",
+   "suggested": "Эхлэл хуудас",
+   "why": "The current translation is not a direct translation of 'Home page'."
+  },
+  {
+   "en": "Disable",
+   "current": "Функцгүй",
+   "suggested": "Идэвхгүй",
+   "why": "The current translation does not accurately convey 'Disable'."
+  },
+  {
+   "en": "Right Button",
+   "current": "Баруун товч",
+   "suggested": "Баруун товчлуур",
+   "why": "Consistent with the glossary term for 'key'."
+  },
+  {
+   "en": "Middle Button",
+   "current": "Дунд товч",
+   "suggested": "Дунд товчлуур",
+   "why": "Consistent with the glossary term for 'key'."
+  },
+  {
+   "en": "Close window",
+   "current": "Цонх хаах",
+   "suggested": "Цонхыг хаах",
+   "why": "More natural phrasing in Mongolian."
+  },
+  {
+   "en": "Run",
+   "current": "Команд ажиллуулах",
+   "suggested": "Ажиллуулах",
+   "why": "Simpler and more direct translation."
+  },
+  {
+   "en": "Task manager",
+   "current": "Ажлын менежер",
+   "suggested": "Үүргийн менежер",
+   "why": "More accurate translation for 'Task'."
+  },
+  {
+   "en": "Lighting ON/OFF",
+   "current": "RGB асаах/унтраах",
+   "suggested": "Гэрэлтүүлэг асаах/унтраах",
+   "why": "Consistent with the glossary term for 'lighting'."
+  },
+  {
+   "en": "Switch Effect",
+   "current": "Гэрлийн эффект солих",
+   "suggested": "Эффект солих",
+   "why": "Simpler and more direct translation."
+  },
+  {
+   "en": "Switch Polling Rate",
+   "current": "Давтамж солих",
+   "suggested": "Дуудлагын давтамж солих",
+   "why": "Consistent with the glossary term for 'polling rate'."
+  },
+  {
+   "en": "Fire key",
+   "current": "Галын товч",
+   "suggested": "Галын товчлуур",
+   "why": "Consistent with the glossary term for 'key'."
+  },
+  {
+   "en": "Loop ( 0-255 )",
+   "current": "Гал нээх тоо ( 0-255 )",
+   "suggested": "Давталт ( 0-255 )",
+   "why": "More accurate translation for 'Loop'."
+  },
+  {
+   "en": "Intervals ( 5-255 )",
+   "current": "Гал нээх зай ( 5-255 )",
+   "suggested": "Зай ( 5-255 )",
+   "why": "Simpler and more direct translation."
+  },
+  {
+   "en": "Note：The smaller intervals value is, the faster speed of keystroke is.",
+   "current": "Тайлбар: Зайн утга бага байх тусам гал нээх хурд өснө.",
+   "suggested": "Тайлбар: Зай бага байх тусам товшилтын хурд өснө.",
+   "why": "Simplified and more direct translation."
+  },
+  {
+   "en": "XY Independent",
+   "current": "XY тэнхлэгийг тусад нь",
+   "suggested": "XY тусгаарлах",
+   "why": "Simpler and more direct translation."
+  },
+  {
+   "en": "At least one button must be configured as \"click\"",
+   "current": "Дор хаяж нэг товчийг \"зүүн товч\" болгон үлдээнэ үү",
+   "suggested": "Дор хаяж нэг товчлуурыг \"товшилт\" болгон тохируулна уу",
+   "why": "Consistent with the glossary term for 'key'."
+  },
+  {
+   "en": "Lighting",
+   "current": "Гэрлийн жагсаалт",
+   "suggested": "Гэрэлтүүлэг",
+   "why": "Consistent with the glossary term for 'lighting'."
+  },
+  {
+   "en": "Mouse Sensitivity",
+   "current": "Хулганы хөдөлгөөний хурд",
+   "suggested": "Хулганын мэдрэмж",
+   "why": "Consistent with the glossary term for 'mouse'."
+  },
+  {
+   "en": "Breathing",
+   "current": "Амьсгаа",
+   "suggested": "Амьсгалах",
+   "why": "The term 'Breathing' in lighting effects usually refers to a gradual brightening and dimming, which is more accurately translated as 'Амьсгалах'."
+  },
+  {
+   "en": "Colorful Steady",
+   "current": "Холимог өнгөөр тогтмол",
+   "suggested": "Тогтмол өнгөтэй",
+   "why": "The translation 'Холимог өнгөөр тогтмол' is a bit awkward. 'Тогтмол өнгөтэй' is more concise and natural."
+  },
+  {
+   "en": "Stars twinkle",
+   "current": "Оддын гялбаа",
+   "suggested": "Оддын анивчилт",
+   "why": "The translation 'Оддын гялбаа' is not as precise as 'Оддын анивчилт', which better captures the twinkling effect."
+  },
+  {
+   "en": "Wave",
+   "current": "Долоон өнгийн долгион",
+   "suggested": "Долгион",
+   "why": "The translation 'Долоон өнгийн долгион' is too specific. 'Долгион' is a more direct translation of 'Wave'."
+  },
+  {
+   "en": "LED OFF",
+   "current": "Унтраах",
+   "suggested": "LED унтраах",
+   "why": "The translation 'Унтраах' is too general. 'LED унтраах' specifies that it's the LED being turned off."
+  },
+  {
+   "en": "Global",
+   "current": "Ерөнхий тохиргоо",
+   "suggested": "Ерөнхий",
+   "why": "The translation 'Ерөнхий тохиргоо' is too specific. 'Ерөнхий' is more concise and fits better in a UI context."
+  },
+  {
+   "en": "Battery",
+   "current": "Үлдэгдэл цэнэг",
+   "suggested": "Цэнэг",
+   "why": "The translation 'Үлдэгдэл цэнэг' is too specific. 'Цэнэг' is more concise and commonly used."
+  },
+  {
+   "en": "Resides in the system tray area",
+   "current": "Баруун доод буланд жижигрүүлэх",
+   "suggested": "Системийн тавиурт байрлах",
+   "why": "The translation 'Баруун доод буланд жижигрүүлэх' is not accurate. 'Системийн тавиурт байрлах' is more precise."
+  },
+  {
+   "en": "Device",
+   "current": "Тохирох төхөөрөмж",
+   "suggested": "Төхөөрөмж",
+   "why": "The translation 'Тохирох төхөөрөмж' is too specific. 'Төхөөрөмж' is more concise and appropriate."
+  },
+  {
+   "en": "Autorun",
+   "current": "Компьютер асахад автоматаар ажиллах",
+   "suggested": "Автоматаар ажиллах",
+   "why": "The translation 'Компьютер асахад автоматаар ажиллах' is too long. 'Автоматаар ажиллах' is more concise."
+  },
+  {
+   "en": "ON",
+   "current": "Асаах",
+   "suggested": "Асаалттай",
+   "why": "The translation 'Асаах' is an action, while 'Асаалттай' is a state, which is more appropriate for 'ON'."
+  },
+  {
+   "en": "Custom color",
+   "current": "Өөрийн өнгө",
+   "suggested": "Захиалгат өнгө",
+   "why": "The translation 'Өөрийн өнгө' is not as precise as 'Захиалгат өнгө', which better conveys 'Custom color'."
+  },
+  {
+   "en": "Are you sure you want to restore？",
+   "current": "Үйлдвэрийн тохиргоог сэргээхдээ итгэлтэй байна уу?",
+   "suggested": "Сэргээхдээ итгэлтэй байна уу?",
+   "why": "The translation 'Үйлдвэрийн тохиргоог сэргээхдээ итгэлтэй байна уу?' is too specific. 'Сэргээхдээ итгэлтэй байна уу?' is more concise."
+  },
+  {
+   "en": "Color",
+   "current": "Нэг өнгө",
+   "suggested": "Өнгө",
+   "why": "The translation 'Нэг өнгө' is too specific. 'Өнгө' is more concise and appropriate."
+  },
+  {
+   "en": "Commands",
+   "current": "Түгээмэл командууд",
+   "suggested": "Командууд",
+   "why": "The translation 'Түгээмэл командууд' is too specific. 'Командууд' is more concise and appropriate."
+  },
+  {
+   "en": "Stage",
+   "current": "шат",
+   "suggested": "Шат",
+   "why": "Capitalization should be consistent with other titles."
+  },
+  {
+   "en": "ColorFull",
+   "current": "Холимог өнгө",
+   "suggested": "Өнгөлөг",
+   "why": "The term 'ColorFull' should be translated to a more natural Mongolian equivalent."
+  },
+  {
+   "en": "Paoma",
+   "current": "Гүйлтийн тест",
+   "suggested": "Паома",
+   "why": "The term 'Paoma' should be left untranslated as it seems to be a specific name or term."
+  },
+  {
+   "en": "Name",
+   "current": "Файлын нэр",
+   "suggested": "Нэр",
+   "why": "The term 'Name' should be translated as 'Нэр' for consistency and clarity."
+  },
+  {
+   "en": "Software",
+   "current": "Тохирох программ",
+   "suggested": "Программ",
+   "why": "The term 'Software' should be translated as 'Программ' for consistency."
+  },
+  {
+   "en": "User",
+   "current": "Байршуулсан хэрэглэгч",
+   "suggested": "Хэрэглэгч",
+   "why": "The term 'User' should be translated as 'Хэрэглэгч' for consistency."
+  },
+  {
+   "en": "Date",
+   "current": "Байршуулсан огноо",
+   "suggested": "Огноо",
+   "why": "The term 'Date' should be translated as 'Огноо' for consistency."
+  },
+  {
+   "en": "Share",
+   "current": "Энэ макрог хуваалцах",
+   "suggested": "Хуваалцах",
+   "why": "The translation should be concise and consistent with the term 'Share'."
+  },
+  {
+   "en": "Confirm password",
+   "current": "Шинэ нууц үгээ дахин оруулна уу",
+   "suggested": "Нууц үгээ баталгаажуулна уу",
+   "why": "The current translation implies entering a new password, which is not accurate. It should focus on confirming the password."
+  },
+  {
+   "en": "Please keep the password length between 6 and 20 characters",
+   "current": "Нууц үгийн урт 6-20 тэмдэгт байна",
+   "suggested": "Нууц үгийн урт 6-20 тэмдэгт байх ёстой",
+   "why": "The current translation is missing the necessity aspect ('байх ёстой')."
+  },
+  {
+   "en": "Automatic logon",
+   "current": "Дараагийн удаа автоматаар нэвтрэх",
+   "suggested": "Автоматаар нэвтрэх",
+   "why": "The current translation implies 'next time', which is not present in the original text."
+  },
+  {
+   "en": "Upload to cloud",
+   "current": "Энэ тохиргоог үүлэн санд байршуулах",
+   "suggested": "Үүлэнд байршуулах",
+   "why": "The current translation is too specific and adds unnecessary details."
+  },
+  {
+   "en": "My cloud profile",
+   "current": "Миний үүлэн тохиргоо",
+   "suggested": "Миний үүлэн профайл",
+   "why": "The term 'profile' should be consistently translated as 'профайл'."
+  },
+  {
+   "en": "Suggestions and feedback",
+   "current": "Санал хүсэлт",
+   "suggested": "Санал хүсэлт ба санал",
+   "why": "The translation should reflect both 'suggestions' and 'feedback'."
+  },
+  {
+   "en": "Original password",
+   "current": "Хуучин нууц үгээ оруулна уу",
+   "suggested": "Хуучин нууц үг",
+   "why": "The current translation implies an action ('enter'), which is not present in the original text."
+  },
+  {
+   "en": "New password",
+   "current": "Шинэ нууц үгээ оруулна уу",
+   "suggested": "Шинэ нууц үг",
+   "why": "The current translation implies an action ('enter'), which is not present in the original text."
+  }
+ ]
+}

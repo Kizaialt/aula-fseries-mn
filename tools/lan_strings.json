@@ -1,0 +1,4319 @@
+{
+ "models": {
+  "AULA_F106Pro_driver": {
+   "config_langs": [
+    "2052",
+    "1033",
+    "1028"
+   ],
+   "default_lan": "1033",
+   "device": "AULA F106Pro",
+   "shipped": [
+    "1028.lan",
+    "1033.lan",
+    "1042.lan",
+    "2052.lan"
+   ]
+  },
+  "AULA_F108Pro_driver": {
+   "config_langs": [
+    "2052",
+    "1033",
+    "1028"
+   ],
+   "default_lan": "2052",
+   "device": "AULA F108Pro",
+   "shipped": [
+    "1028.lan",
+    "1033.lan",
+    "1042.lan",
+    "2052.lan"
+   ]
+  },
+  "AULA_F75MAX_driver": {
+   "config_langs": [
+    "1033",
+    "2052",
+    "1028"
+   ],
+   "default_lan": "1033",
+   "device": "AULA F75 Max Gasket Mechanical Keyboard",
+   "shipped": [
+    "1028.lan",
+    "1033.lan",
+    "1042.lan",
+    "2052.lan"
+   ]
+  },
+  "AULA_F87_Wired_driver": {
+   "config_langs": [],
+   "default_lan": null,
+   "device": "AULA  F87 有线机械键盘",
+   "shipped": [
+    "1033.lan",
+    "2052.lan"
+   ]
+  },
+  "AULA_F98PRO_driver": {
+   "config_langs": [
+    "1028",
+    "1033",
+    "2052"
+   ],
+   "default_lan": "2052",
+   "device": "AULA F98Pro V3",
+   "shipped": [
+    "1028.lan",
+    "1033.lan",
+    "1049.lan",
+    "2052.lan"
+   ]
+  },
+  "AULA_F98pro_V3_driver": {
+   "config_langs": [
+    "1028",
+    "1033",
+    "2052"
+   ],
+   "default_lan": "2052",
+   "device": "AULA F98Pro V3",
+   "shipped": [
+    "1028.lan",
+    "1033.lan",
+    "1049.lan",
+    "2052.lan"
+   ]
+  }
+ },
+ "union": [
+  {
+   "section": "CAPTION",
+   "key": "1",
+   "values": {
+    "AULA_F106Pro_driver": "M87 keyboard",
+    "AULA_F108Pro_driver": "M87 keyboard",
+    "AULA_F75MAX_driver": "M87 keyboard",
+    "AULA_F98PRO_driver": "M87 keyboard",
+    "AULA_F98pro_V3_driver": "M87 keyboard"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "1",
+   "values": {
+    "AULA_F106Pro_driver": "Close Window",
+    "AULA_F108Pro_driver": "Close Window",
+    "AULA_F75MAX_driver": "Close Window",
+    "AULA_F87_Wired_driver": "Close Window",
+    "AULA_F98PRO_driver": "Close Window",
+    "AULA_F98pro_V3_driver": "Close Window"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "2",
+   "values": {
+    "AULA_F106Pro_driver": "Maximize Window",
+    "AULA_F108Pro_driver": "Maximize Window",
+    "AULA_F75MAX_driver": "Maximize Window",
+    "AULA_F87_Wired_driver": "Minimize Window",
+    "AULA_F98PRO_driver": "Maximize Window",
+    "AULA_F98pro_V3_driver": "Maximize Window"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "3",
+   "values": {
+    "AULA_F106Pro_driver": "Minimize Window",
+    "AULA_F108Pro_driver": "Minimize Window",
+    "AULA_F75MAX_driver": "Minimize Window",
+    "AULA_F87_Wired_driver": "Maximize Window",
+    "AULA_F98PRO_driver": "Minimize Window",
+    "AULA_F98pro_V3_driver": "Minimize Window"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "4",
+   "values": {
+    "AULA_F106Pro_driver": "Restore Window",
+    "AULA_F108Pro_driver": "Restore Window",
+    "AULA_F75MAX_driver": "Restore Window",
+    "AULA_F87_Wired_driver": "Window restore",
+    "AULA_F98PRO_driver": "Restore Window",
+    "AULA_F98pro_V3_driver": "Restore Window"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "5",
+   "values": {
+    "AULA_F106Pro_driver": "Home",
+    "AULA_F108Pro_driver": "Home",
+    "AULA_F75MAX_driver": "Home",
+    "AULA_F87_Wired_driver": "Website",
+    "AULA_F98PRO_driver": "Home",
+    "AULA_F98pro_V3_driver": "Home"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "6",
+   "values": {
+    "AULA_F106Pro_driver": "Store",
+    "AULA_F108Pro_driver": "Store",
+    "AULA_F75MAX_driver": "Store",
+    "AULA_F87_Wired_driver": "Store",
+    "AULA_F98PRO_driver": "Store",
+    "AULA_F98pro_V3_driver": "Store"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "10",
+   "values": {
+    "AULA_F106Pro_driver": "Settings",
+    "AULA_F108Pro_driver": "Settings",
+    "AULA_F75MAX_driver": "Settings",
+    "AULA_F87_Wired_driver": "Config",
+    "AULA_F98PRO_driver": "Settings",
+    "AULA_F98pro_V3_driver": "Settings"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "11",
+   "values": {
+    "AULA_F106Pro_driver": "Exit",
+    "AULA_F108Pro_driver": "Exit",
+    "AULA_F75MAX_driver": "Exit",
+    "AULA_F87_Wired_driver": "Exit",
+    "AULA_F98PRO_driver": "Exit",
+    "AULA_F98pro_V3_driver": "Exit"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "20",
+   "values": {
+    "AULA_F106Pro_driver": "OK",
+    "AULA_F108Pro_driver": "OK",
+    "AULA_F75MAX_driver": "OK",
+    "AULA_F87_Wired_driver": "OK",
+    "AULA_F98PRO_driver": "OK",
+    "AULA_F98pro_V3_driver": "OK"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "21",
+   "values": {
+    "AULA_F106Pro_driver": "Cancel",
+    "AULA_F108Pro_driver": "Cancel",
+    "AULA_F75MAX_driver": "Cancel",
+    "AULA_F87_Wired_driver": "Cancel",
+    "AULA_F98PRO_driver": "Cancel",
+    "AULA_F98pro_V3_driver": "Cancel"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "22",
+   "values": {
+    "AULA_F106Pro_driver": "Apply",
+    "AULA_F108Pro_driver": "Apply",
+    "AULA_F75MAX_driver": "Apply",
+    "AULA_F87_Wired_driver": "Apply",
+    "AULA_F98PRO_driver": "Apply",
+    "AULA_F98pro_V3_driver": "Apply"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "23",
+   "values": {
+    "AULA_F106Pro_driver": "Yes",
+    "AULA_F108Pro_driver": "Yes",
+    "AULA_F75MAX_driver": "Yes",
+    "AULA_F87_Wired_driver": "Yes",
+    "AULA_F98PRO_driver": "Yes",
+    "AULA_F98pro_V3_driver": "Yes"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "25",
+   "values": {
+    "AULA_F106Pro_driver": "No",
+    "AULA_F108Pro_driver": "No",
+    "AULA_F75MAX_driver": "No",
+    "AULA_F87_Wired_driver": "No",
+    "AULA_F98PRO_driver": "No",
+    "AULA_F98pro_V3_driver": "No"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "26",
+   "values": {
+    "AULA_F106Pro_driver": "Import",
+    "AULA_F108Pro_driver": "Import",
+    "AULA_F75MAX_driver": "Import",
+    "AULA_F87_Wired_driver": "Import",
+    "AULA_F98PRO_driver": "Import",
+    "AULA_F98pro_V3_driver": "Import"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "27",
+   "values": {
+    "AULA_F106Pro_driver": "Export",
+    "AULA_F108Pro_driver": "Export",
+    "AULA_F75MAX_driver": "Export",
+    "AULA_F87_Wired_driver": "Export",
+    "AULA_F98PRO_driver": "Export",
+    "AULA_F98pro_V3_driver": "Export"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "28",
+   "values": {
+    "AULA_F106Pro_driver": "Add",
+    "AULA_F108Pro_driver": "Add",
+    "AULA_F75MAX_driver": "Add",
+    "AULA_F87_Wired_driver": "Add",
+    "AULA_F98PRO_driver": "Add",
+    "AULA_F98pro_V3_driver": "Add"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "29",
+   "values": {
+    "AULA_F106Pro_driver": "Edit",
+    "AULA_F108Pro_driver": "Edit",
+    "AULA_F75MAX_driver": "Edit",
+    "AULA_F87_Wired_driver": "Edit",
+    "AULA_F98PRO_driver": "Edit",
+    "AULA_F98pro_V3_driver": "Edit"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "30",
+   "values": {
+    "AULA_F106Pro_driver": "Delete",
+    "AULA_F108Pro_driver": "Delete",
+    "AULA_F75MAX_driver": "Delete",
+    "AULA_F87_Wired_driver": "Delete",
+    "AULA_F98PRO_driver": "Delete",
+    "AULA_F98pro_V3_driver": "Delete"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "31",
+   "values": {
+    "AULA_F106Pro_driver": "Copy",
+    "AULA_F108Pro_driver": "Copy",
+    "AULA_F75MAX_driver": "Copy",
+    "AULA_F87_Wired_driver": "Copy",
+    "AULA_F98PRO_driver": "Copy",
+    "AULA_F98pro_V3_driver": "Copy"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "32",
+   "values": {
+    "AULA_F106Pro_driver": "Paste",
+    "AULA_F108Pro_driver": "Paste",
+    "AULA_F75MAX_driver": "Paste",
+    "AULA_F87_Wired_driver": "Paste",
+    "AULA_F98PRO_driver": "Paste",
+    "AULA_F98pro_V3_driver": "Paste"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "33",
+   "values": {
+    "AULA_F106Pro_driver": "Rename",
+    "AULA_F108Pro_driver": "Rename",
+    "AULA_F75MAX_driver": "Rename",
+    "AULA_F87_Wired_driver": "Rename",
+    "AULA_F98PRO_driver": "Rename",
+    "AULA_F98pro_V3_driver": "Rename"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "35",
+   "values": {
+    "AULA_F106Pro_driver": "New",
+    "AULA_F108Pro_driver": "New",
+    "AULA_F75MAX_driver": "New",
+    "AULA_F87_Wired_driver": "New",
+    "AULA_F98PRO_driver": "New",
+    "AULA_F98pro_V3_driver": "New"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "36",
+   "values": {
+    "AULA_F106Pro_driver": "Cut",
+    "AULA_F108Pro_driver": "Cut",
+    "AULA_F75MAX_driver": "Cut",
+    "AULA_F87_Wired_driver": "Cut",
+    "AULA_F98PRO_driver": "Cut",
+    "AULA_F98pro_V3_driver": "Cut"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "37",
+   "values": {
+    "AULA_F106Pro_driver": "Reset",
+    "AULA_F108Pro_driver": "Reset",
+    "AULA_F75MAX_driver": "Reset",
+    "AULA_F98PRO_driver": "Reset",
+    "AULA_F98pro_V3_driver": "Reset"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "50",
+   "values": {
+    "AULA_F106Pro_driver": "Main Menu",
+    "AULA_F108Pro_driver": "Main Menu",
+    "AULA_F75MAX_driver": "Main Menu",
+    "AULA_F87_Wired_driver": "Main Menu",
+    "AULA_F98PRO_driver": "Main Menu",
+    "AULA_F98pro_V3_driver": "Main Menu"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "51",
+   "values": {
+    "AULA_F106Pro_driver": "My Exclusive Config",
+    "AULA_F108Pro_driver": "My Exclusive Config",
+    "AULA_F75MAX_driver": "My Exclusive Config",
+    "AULA_F87_Wired_driver": "Profile",
+    "AULA_F98PRO_driver": "My Exclusive Config",
+    "AULA_F98pro_V3_driver": "My Exclusive Config"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "52",
+   "values": {
+    "AULA_F106Pro_driver": "Macro Manager",
+    "AULA_F108Pro_driver": "Macro Manager",
+    "AULA_F75MAX_driver": "Macro Manager",
+    "AULA_F87_Wired_driver": "Macro",
+    "AULA_F98PRO_driver": "Macro Manager",
+    "AULA_F98pro_V3_driver": "Macro Manager"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "53",
+   "values": {
+    "AULA_F106Pro_driver": "Lighting Mode",
+    "AULA_F108Pro_driver": "Lighting Mode",
+    "AULA_F75MAX_driver": "Lighting Mode",
+    "AULA_F87_Wired_driver": "Light",
+    "AULA_F98PRO_driver": "Lighting Mode",
+    "AULA_F98pro_V3_driver": "Lighting Mode"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "54",
+   "values": {
+    "AULA_F106Pro_driver": "User Lighting",
+    "AULA_F108Pro_driver": "User Lighting",
+    "AULA_F75MAX_driver": "User Lighting",
+    "AULA_F98PRO_driver": "User Lighting",
+    "AULA_F98pro_V3_driver": "User Lighting"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "55",
+   "values": {
+    "AULA_F106Pro_driver": "Real-time Lighting",
+    "AULA_F108Pro_driver": "Real-time Lighting",
+    "AULA_F75MAX_driver": "Real-time Lighting",
+    "AULA_F87_Wired_driver": "Real-time Light",
+    "AULA_F98PRO_driver": "Real-time Lighting",
+    "AULA_F98pro_V3_driver": "Real-time Lighting"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "56",
+   "values": {
+    "AULA_F106Pro_driver": "Music Rhythm",
+    "AULA_F108Pro_driver": "Music Rhythm",
+    "AULA_F75MAX_driver": "Music Rhythm",
+    "AULA_F87_Wired_driver": "System Config",
+    "AULA_F98PRO_driver": "Music Rhythm",
+    "AULA_F98pro_V3_driver": "Music Rhythm"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "57",
+   "values": {
+    "AULA_F106Pro_driver": "System Settings",
+    "AULA_F108Pro_driver": "System Settings",
+    "AULA_F75MAX_driver": "System Settings",
+    "AULA_F98PRO_driver": "System Settings",
+    "AULA_F98pro_V3_driver": "System Settings"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "58",
+   "values": {
+    "AULA_F106Pro_driver": "TFT Screen",
+    "AULA_F108Pro_driver": "TFT Screen",
+    "AULA_F75MAX_driver": "TFT Screen",
+    "AULA_F98PRO_driver": "TFT Screen",
+    "AULA_F98pro_V3_driver": "TFT Screen"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "60",
+   "values": {
+    "AULA_F106Pro_driver": "Connected Devices",
+    "AULA_F108Pro_driver": "Connected Devices",
+    "AULA_F75MAX_driver": "Connected Devices",
+    "AULA_F87_Wired_driver": "Device connected",
+    "AULA_F98PRO_driver": "Connected Devices",
+    "AULA_F98pro_V3_driver": "Connected Devices"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "61",
+   "values": {
+    "AULA_F106Pro_driver": "Please Connect a Device",
+    "AULA_F108Pro_driver": "Please Connect a Device",
+    "AULA_F75MAX_driver": "Please Connect a Device",
+    "AULA_F87_Wired_driver": "Please connect the device",
+    "AULA_F98PRO_driver": "Please Connect a Device",
+    "AULA_F98pro_V3_driver": "Please Connect a Device"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "62",
+   "values": {
+    "AULA_F106Pro_driver": "keyboard settings are not supported in Bluetooth mode for now. Please use the USB or 2.4 GHz connection for the keyboard setting.",
+    "AULA_F108Pro_driver": "keyboard settings are not supported in Bluetooth mode for now. Please use the USB or 2.4 GHz connection for the keyboard setting.",
+    "AULA_F75MAX_driver": "keyboard settings are not supported in Bluetooth mode for now. Please use the USB or 2.4 GHz connection for the keyboard setting.",
+    "AULA_F98PRO_driver": "keyboard settings are not supported in Bluetooth mode for now. Please use the USB or 2.4 GHz connection for the keyboard setting.",
+    "AULA_F98pro_V3_driver": "keyboard settings are not supported in Bluetooth mode for now. Please use the USB or 2.4 GHz connection for the keyboard setting."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "63",
+   "values": {
+    "AULA_F106Pro_driver": "Looking for device, please connect your device. If it is a wireless device, please press the button to release the sleep state.",
+    "AULA_F108Pro_driver": "Looking for device, please connect your device. If it is a wireless device, please press the button to release the sleep state.",
+    "AULA_F75MAX_driver": "Looking for device, please connect your device. If it is a wireless device, please press the button to release the sleep state.",
+    "AULA_F98PRO_driver": "Looking for device, please connect your device. If it is a wireless device, please press the button to release the sleep state.",
+    "AULA_F98pro_V3_driver": "Looking for device, please connect your device. If it is a wireless device, please press the button to release the sleep state."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "65",
+   "values": {
+    "AULA_F106Pro_driver": "My Exclusive Config",
+    "AULA_F108Pro_driver": "My Exclusive Config",
+    "AULA_F75MAX_driver": "My Exclusive Config",
+    "AULA_F87_Wired_driver": "Profile",
+    "AULA_F98PRO_driver": "My Exclusive Config",
+    "AULA_F98pro_V3_driver": "My Exclusive Config"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "70",
+   "values": {
+    "AULA_F106Pro_driver": "Select All",
+    "AULA_F108Pro_driver": "Select All",
+    "AULA_F75MAX_driver": "Select All",
+    "AULA_F98PRO_driver": "Select All",
+    "AULA_F98pro_V3_driver": "Select All"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "71",
+   "values": {
+    "AULA_F106Pro_driver": "Numeric",
+    "AULA_F108Pro_driver": "Numeric",
+    "AULA_F75MAX_driver": "Numeric",
+    "AULA_F98PRO_driver": "Numeric",
+    "AULA_F98pro_V3_driver": "Numeric"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "78",
+   "values": {
+    "AULA_F106Pro_driver": "Custom Light",
+    "AULA_F108Pro_driver": "Custom Light",
+    "AULA_F75MAX_driver": "Custom Light",
+    "AULA_F98PRO_driver": "Custom Light",
+    "AULA_F98pro_V3_driver": "Custom Light"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "79",
+   "values": {
+    "AULA_F106Pro_driver": "Lighting Color",
+    "AULA_F108Pro_driver": "Lighting Color",
+    "AULA_F75MAX_driver": "Lighting Color",
+    "AULA_F98PRO_driver": "Lighting Color",
+    "AULA_F98pro_V3_driver": "Lighting Color"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "80",
+   "values": {
+    "AULA_F106Pro_driver": "Colorful",
+    "AULA_F108Pro_driver": "Colorful",
+    "AULA_F75MAX_driver": "Colorful",
+    "AULA_F98PRO_driver": "Colorful",
+    "AULA_F98pro_V3_driver": "Colorful"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "81",
+   "values": {
+    "AULA_F106Pro_driver": "Palette",
+    "AULA_F108Pro_driver": "Palette",
+    "AULA_F75MAX_driver": "Palette",
+    "AULA_F98PRO_driver": "Palette",
+    "AULA_F98pro_V3_driver": "Palette"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "82",
+   "values": {
+    "AULA_F106Pro_driver": "Lighting Brightness",
+    "AULA_F108Pro_driver": "Lighting Brightness",
+    "AULA_F75MAX_driver": "Lighting Brightness",
+    "AULA_F87_Wired_driver": "Light Brightness",
+    "AULA_F98PRO_driver": "Lighting Brightness",
+    "AULA_F98pro_V3_driver": "Lighting Brightness"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "83",
+   "values": {
+    "AULA_F106Pro_driver": "Lighting Speed",
+    "AULA_F108Pro_driver": "Lighting Speed",
+    "AULA_F75MAX_driver": "Lighting Speed",
+    "AULA_F87_Wired_driver": "Light Speed",
+    "AULA_F98PRO_driver": "Lighting Speed",
+    "AULA_F98pro_V3_driver": "Lighting Speed"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "85",
+   "values": {
+    "AULA_F106Pro_driver": "Lighting Direction",
+    "AULA_F108Pro_driver": "Lighting Direction",
+    "AULA_F75MAX_driver": "Lighting Direction",
+    "AULA_F87_Wired_driver": "Light Direction",
+    "AULA_F98PRO_driver": "Lighting Direction",
+    "AULA_F98pro_V3_driver": "Lighting Direction"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "101",
+   "values": {
+    "AULA_F106Pro_driver": "New Music Effect",
+    "AULA_F108Pro_driver": "New Music Effect",
+    "AULA_F75MAX_driver": "New Music Effect",
+    "AULA_F87_Wired_driver": "Music mode 1",
+    "AULA_F98PRO_driver": "New Music Effect",
+    "AULA_F98pro_V3_driver": "New Music Effect"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "102",
+   "values": {
+    "AULA_F106Pro_driver": "Rhythm",
+    "AULA_F108Pro_driver": "Rhythm",
+    "AULA_F75MAX_driver": "Rhythm",
+    "AULA_F87_Wired_driver": "Music mode 2",
+    "AULA_F98PRO_driver": "Rhythm",
+    "AULA_F98pro_V3_driver": "Rhythm"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "103",
+   "values": {
+    "AULA_F106Pro_driver": "Amplitude",
+    "AULA_F108Pro_driver": "Amplitude",
+    "AULA_F75MAX_driver": "Amplitude",
+    "AULA_F87_Wired_driver": "Amplitude",
+    "AULA_F98PRO_driver": "Amplitude",
+    "AULA_F98pro_V3_driver": "Amplitude"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "104",
+   "values": {
+    "AULA_F106Pro_driver": "Background Mode",
+    "AULA_F108Pro_driver": "Background Mode",
+    "AULA_F75MAX_driver": "Background Mode",
+    "AULA_F87_Wired_driver": "Frequency Rate",
+    "AULA_F98PRO_driver": "Background Mode",
+    "AULA_F98pro_V3_driver": "Background Mode"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "105",
+   "values": {
+    "AULA_F106Pro_driver": "Background Brightness",
+    "AULA_F108Pro_driver": "Background Brightness",
+    "AULA_F75MAX_driver": "Background Brightness",
+    "AULA_F98PRO_driver": "Background Brightness",
+    "AULA_F98pro_V3_driver": "Background Brightness"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "106",
+   "values": {
+    "AULA_F106Pro_driver": "Green/Yellow/Red",
+    "AULA_F108Pro_driver": "Green/Yellow/Red",
+    "AULA_F75MAX_driver": "Green/Yellow/Red",
+    "AULA_F98PRO_driver": "Green/Yellow/Red",
+    "AULA_F98pro_V3_driver": "Green/Yellow/Red"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "107",
+   "values": {
+    "AULA_F106Pro_driver": "Rainbow",
+    "AULA_F108Pro_driver": "Rainbow",
+    "AULA_F75MAX_driver": "Rainbow",
+    "AULA_F98PRO_driver": "Rainbow",
+    "AULA_F98pro_V3_driver": "Rainbow"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "108",
+   "values": {
+    "AULA_F106Pro_driver": "Reverse Rainbow",
+    "AULA_F108Pro_driver": "Reverse Rainbow",
+    "AULA_F75MAX_driver": "Reverse Rainbow",
+    "AULA_F98PRO_driver": "Reverse Rainbow",
+    "AULA_F98pro_V3_driver": "Reverse Rainbow"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "109",
+   "values": {
+    "AULA_F106Pro_driver": "Gradient",
+    "AULA_F108Pro_driver": "Gradient",
+    "AULA_F75MAX_driver": "Gradient",
+    "AULA_F98PRO_driver": "Gradient",
+    "AULA_F98pro_V3_driver": "Gradient"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "110",
+   "values": {
+    "AULA_F106Pro_driver": "Spectrum Cycle",
+    "AULA_F108Pro_driver": "Spectrum Cycle",
+    "AULA_F75MAX_driver": "Spectrum Cycle",
+    "AULA_F98PRO_driver": "Spectrum Cycle",
+    "AULA_F98pro_V3_driver": "Spectrum Cycle"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "111",
+   "values": {
+    "AULA_F106Pro_driver": "White",
+    "AULA_F108Pro_driver": "White",
+    "AULA_F75MAX_driver": "White",
+    "AULA_F98PRO_driver": "White",
+    "AULA_F98pro_V3_driver": "White"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "112",
+   "values": {
+    "AULA_F106Pro_driver": "Red",
+    "AULA_F108Pro_driver": "Red",
+    "AULA_F75MAX_driver": "Red",
+    "AULA_F98PRO_driver": "Red",
+    "AULA_F98pro_V3_driver": "Red"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "113",
+   "values": {
+    "AULA_F106Pro_driver": "Orange",
+    "AULA_F108Pro_driver": "Orange",
+    "AULA_F75MAX_driver": "Orange",
+    "AULA_F98PRO_driver": "Orange",
+    "AULA_F98pro_V3_driver": "Orange"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "114",
+   "values": {
+    "AULA_F106Pro_driver": "Yellow",
+    "AULA_F108Pro_driver": "Yellow",
+    "AULA_F75MAX_driver": "Yellow",
+    "AULA_F98PRO_driver": "Yellow",
+    "AULA_F98pro_V3_driver": "Yellow"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "115",
+   "values": {
+    "AULA_F106Pro_driver": "Green",
+    "AULA_F108Pro_driver": "Green",
+    "AULA_F75MAX_driver": "Green",
+    "AULA_F98PRO_driver": "Green",
+    "AULA_F98pro_V3_driver": "Green"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "116",
+   "values": {
+    "AULA_F106Pro_driver": "Cyan",
+    "AULA_F108Pro_driver": "Cyan",
+    "AULA_F75MAX_driver": "Cyan",
+    "AULA_F98PRO_driver": "Cyan",
+    "AULA_F98pro_V3_driver": "Cyan"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "117",
+   "values": {
+    "AULA_F106Pro_driver": "Off",
+    "AULA_F108Pro_driver": "Off",
+    "AULA_F75MAX_driver": "Off",
+    "AULA_F98PRO_driver": "Off",
+    "AULA_F98pro_V3_driver": "Off"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "118",
+   "values": {
+    "AULA_F106Pro_driver": "Blue",
+    "AULA_F108Pro_driver": "Blue",
+    "AULA_F75MAX_driver": "Blue",
+    "AULA_F98PRO_driver": "Blue",
+    "AULA_F98pro_V3_driver": "Blue"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "119",
+   "values": {
+    "AULA_F106Pro_driver": "Purple",
+    "AULA_F108Pro_driver": "Purple",
+    "AULA_F75MAX_driver": "Purple",
+    "AULA_F98PRO_driver": "Purple",
+    "AULA_F98pro_V3_driver": "Purple"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "120",
+   "values": {
+    "AULA_F106Pro_driver": "Ambilight",
+    "AULA_F108Pro_driver": "Ambilight",
+    "AULA_F75MAX_driver": "Ambilight",
+    "AULA_F98PRO_driver": "Ambilight",
+    "AULA_F98pro_V3_driver": "Ambilight"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "140",
+   "values": {
+    "AULA_F106Pro_driver": "Key Response Time",
+    "AULA_F108Pro_driver": "Key Response Time",
+    "AULA_F75MAX_driver": "Key Response Time",
+    "AULA_F98PRO_driver": "Key Response Time",
+    "AULA_F98pro_V3_driver": "Key Response Time"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "141",
+   "values": {
+    "AULA_F106Pro_driver": "Sleep Time",
+    "AULA_F108Pro_driver": "Sleep Time",
+    "AULA_F75MAX_driver": "Sleep Time",
+    "AULA_F98PRO_driver": "Sleep Time",
+    "AULA_F98pro_V3_driver": "Sleep Time"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "142",
+   "values": {
+    "AULA_F106Pro_driver": "No Sleep",
+    "AULA_F108Pro_driver": "No Sleep",
+    "AULA_F75MAX_driver": "No Sleep",
+    "AULA_F98PRO_driver": "No Sleep",
+    "AULA_F98pro_V3_driver": "No Sleep"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "143",
+   "values": {
+    "AULA_F106Pro_driver": "1min",
+    "AULA_F108Pro_driver": "1min",
+    "AULA_F75MAX_driver": "1min",
+    "AULA_F98PRO_driver": "1min",
+    "AULA_F98pro_V3_driver": "1min"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "144",
+   "values": {
+    "AULA_F106Pro_driver": "5min",
+    "AULA_F108Pro_driver": "5min",
+    "AULA_F75MAX_driver": "5min",
+    "AULA_F98PRO_driver": "5min",
+    "AULA_F98pro_V3_driver": "5min"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "145",
+   "values": {
+    "AULA_F106Pro_driver": "30min",
+    "AULA_F108Pro_driver": "30min",
+    "AULA_F75MAX_driver": "30min",
+    "AULA_F98PRO_driver": "30min",
+    "AULA_F98pro_V3_driver": "30min"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "149",
+   "values": {
+    "AULA_F106Pro_driver": "Level",
+    "AULA_F108Pro_driver": "Level",
+    "AULA_F75MAX_driver": "Level",
+    "AULA_F98PRO_driver": "Level",
+    "AULA_F98pro_V3_driver": "Level"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "150",
+   "values": {
+    "AULA_F106Pro_driver": "Language",
+    "AULA_F108Pro_driver": "Language",
+    "AULA_F75MAX_driver": "Language",
+    "AULA_F87_Wired_driver": "Language",
+    "AULA_F98PRO_driver": "Language",
+    "AULA_F98pro_V3_driver": "Language"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "151",
+   "values": {
+    "AULA_F106Pro_driver": "Automatic Start",
+    "AULA_F108Pro_driver": "Automatic Start",
+    "AULA_F75MAX_driver": "Automatic Start",
+    "AULA_F87_Wired_driver": "Auto Run",
+    "AULA_F98PRO_driver": "Automatic Start",
+    "AULA_F98pro_V3_driver": "Automatic Start"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "152",
+   "values": {
+    "AULA_F106Pro_driver": "Reset Keyboard",
+    "AULA_F108Pro_driver": "Reset Keyboard",
+    "AULA_F75MAX_driver": "Reset Keyboard",
+    "AULA_F87_Wired_driver": "Reset Keyboard",
+    "AULA_F98PRO_driver": "Reset Keyboard",
+    "AULA_F98pro_V3_driver": "Reset Keyboard"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "153",
+   "values": {
+    "AULA_F106Pro_driver": "Factory Reset",
+    "AULA_F108Pro_driver": "Factory Reset",
+    "AULA_F75MAX_driver": "Factory Reset",
+    "AULA_F87_Wired_driver": "Restore Factory Settings",
+    "AULA_F98PRO_driver": "Factory Reset",
+    "AULA_F98pro_V3_driver": "Factory Reset"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "156",
+   "values": {
+    "AULA_F106Pro_driver": "Driver Update",
+    "AULA_F108Pro_driver": "Driver Update",
+    "AULA_F75MAX_driver": "Driver Update",
+    "AULA_F87_Wired_driver": "Software Update",
+    "AULA_F98PRO_driver": "Driver Update",
+    "AULA_F98pro_V3_driver": "Driver Update"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "157",
+   "values": {
+    "AULA_F106Pro_driver": "Firmware Update",
+    "AULA_F108Pro_driver": "Firmware Update",
+    "AULA_F75MAX_driver": "Firmware Update",
+    "AULA_F87_Wired_driver": "Firmware Update",
+    "AULA_F98PRO_driver": "Firmware Update",
+    "AULA_F98pro_V3_driver": "Firmware Update"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "160",
+   "values": {
+    "AULA_F106Pro_driver": "Disable Windows Key",
+    "AULA_F108Pro_driver": "Disable Windows Key",
+    "AULA_F75MAX_driver": "Disable Windows Key",
+    "AULA_F87_Wired_driver": "Disable Window key",
+    "AULA_F98PRO_driver": "Disable Windows Key",
+    "AULA_F98pro_V3_driver": "Disable Windows Key"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "161",
+   "values": {
+    "AULA_F106Pro_driver": "Disable ALT + F4",
+    "AULA_F108Pro_driver": "Disable ALT + F4",
+    "AULA_F75MAX_driver": "Disable ALT + F4",
+    "AULA_F87_Wired_driver": "Disable ALT + F4",
+    "AULA_F98PRO_driver": "Disable ALT + F4",
+    "AULA_F98pro_V3_driver": "Disable ALT + F4"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "162",
+   "values": {
+    "AULA_F106Pro_driver": "Disable ALT + TAB",
+    "AULA_F108Pro_driver": "Disable ALT + TAB",
+    "AULA_F75MAX_driver": "Disable ALT + TAB",
+    "AULA_F87_Wired_driver": "Disable ALT + TAB",
+    "AULA_F98PRO_driver": "Disable ALT + TAB",
+    "AULA_F98pro_V3_driver": "Disable ALT + TAB"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "165",
+   "values": {
+    "AULA_F106Pro_driver": "Resetting the keyboard will clear all keyboard data. Do you want to continue?",
+    "AULA_F108Pro_driver": "Resetting the keyboard will clear all keyboard data. Do you want to continue?",
+    "AULA_F75MAX_driver": "Resetting the keyboard will clear all keyboard data. Do you want to continue?",
+    "AULA_F87_Wired_driver": "Resetting keyboard will clear all keyboard data, do you want to continue?",
+    "AULA_F98PRO_driver": "Resetting the keyboard will clear all keyboard data. Do you want to continue?",
+    "AULA_F98pro_V3_driver": "Resetting the keyboard will clear all keyboard data. Do you want to continue?"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "166",
+   "values": {
+    "AULA_F106Pro_driver": "Reset Keyboard",
+    "AULA_F108Pro_driver": "Reset Keyboard",
+    "AULA_F75MAX_driver": "Reset Keyboard",
+    "AULA_F87_Wired_driver": "Reset keyboard",
+    "AULA_F98PRO_driver": "Reset Keyboard",
+    "AULA_F98pro_V3_driver": "Reset Keyboard"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "167",
+   "values": {
+    "AULA_F106Pro_driver": "Factory reset will clear all data. Do you want to continue?",
+    "AULA_F108Pro_driver": "Factory reset will clear all data. Do you want to continue?",
+    "AULA_F75MAX_driver": "Factory reset will clear all data. Do you want to continue?",
+    "AULA_F87_Wired_driver": "Restore Factory Settings will erase all data, do you want to continue?",
+    "AULA_F98PRO_driver": "Factory reset will clear all data. Do you want to continue?",
+    "AULA_F98pro_V3_driver": "Factory reset will clear all data. Do you want to continue?"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "168",
+   "values": {
+    "AULA_F106Pro_driver": "Factory Reset",
+    "AULA_F108Pro_driver": "Factory Reset",
+    "AULA_F75MAX_driver": "Factory Reset",
+    "AULA_F87_Wired_driver": "Restore Factory Settings",
+    "AULA_F98PRO_driver": "Factory Reset",
+    "AULA_F98pro_V3_driver": "Factory Reset"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "170",
+   "values": {
+    "AULA_F106Pro_driver": "Close Main Window",
+    "AULA_F108Pro_driver": "Close Main Window",
+    "AULA_F75MAX_driver": "Close Main Window",
+    "AULA_F87_Wired_driver": "Close main window",
+    "AULA_F98PRO_driver": "Close Main Window",
+    "AULA_F98pro_V3_driver": "Close Main Window"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "171",
+   "values": {
+    "AULA_F106Pro_driver": "Minimize to Tray, Don't Exit",
+    "AULA_F108Pro_driver": "Minimize to Tray, Don't Exit",
+    "AULA_F75MAX_driver": "Minimize to Tray, Don't Exit",
+    "AULA_F87_Wired_driver": "Minimize, do not exit Application",
+    "AULA_F98PRO_driver": "Minimize to Tray, Don't Exit",
+    "AULA_F98pro_V3_driver": "Minimize to Tray, Don't Exit"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "172",
+   "values": {
+    "AULA_F106Pro_driver": "Exit Program",
+    "AULA_F108Pro_driver": "Exit Program",
+    "AULA_F75MAX_driver": "Exit Program",
+    "AULA_F87_Wired_driver": "Exit Application",
+    "AULA_F98PRO_driver": "Exit Program",
+    "AULA_F98pro_V3_driver": "Exit Program"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "175",
+   "values": {
+    "AULA_F106Pro_driver": "You are currently using the latest version.",
+    "AULA_F108Pro_driver": "You are currently using the latest version.",
+    "AULA_F75MAX_driver": "You are currently using the latest version.",
+    "AULA_F87_Wired_driver": "The software is currently the latest version.",
+    "AULA_F98PRO_driver": "You are currently using the latest version.",
+    "AULA_F98pro_V3_driver": "You are currently using the latest version."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "176",
+   "values": {
+    "AULA_F106Pro_driver": "A new driver version is detected. Do you want to update?",
+    "AULA_F108Pro_driver": "A new driver version is detected. Do you want to update?",
+    "AULA_F75MAX_driver": "A new driver version is detected. Do you want to update?",
+    "AULA_F87_Wired_driver": "Detect a New Firmware. Do You Want to Upgrade It?",
+    "AULA_F98PRO_driver": "A new driver version is detected. Do you want to update?",
+    "AULA_F98pro_V3_driver": "A new driver version is detected. Do you want to update?"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "177",
+   "values": {
+    "AULA_F106Pro_driver": "The current firmware is up to date. Do you still want to flash the firmware?",
+    "AULA_F108Pro_driver": "The current firmware is up to date. Do you still want to flash the firmware?",
+    "AULA_F75MAX_driver": "The current firmware is up to date. Do you still want to flash the firmware?",
+    "AULA_F87_Wired_driver": "The firmware is currently the latest version. Do you want to upgrade it again?",
+    "AULA_F98PRO_driver": "The current firmware is up to date. Do you still want to flash the firmware?",
+    "AULA_F98pro_V3_driver": "The current firmware is up to date. Do you still want to flash the firmware?"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "180",
+   "values": {
+    "AULA_F106Pro_driver": "The new firmware has been found. For better use experience, we recommend that you upgrade the firmware",
+    "AULA_F108Pro_driver": "The new firmware has been found. For better use experience, we recommend that you upgrade the firmware",
+    "AULA_F75MAX_driver": "The new firmware has been found. For better use experience, we recommend that you upgrade the firmware",
+    "AULA_F98PRO_driver": "The new firmware has been found. For better use experience, we recommend that you upgrade the firmware",
+    "AULA_F98pro_V3_driver": "The new firmware has been found. For better use experience, we recommend that you upgrade the firmware"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "181",
+   "values": {
+    "AULA_F106Pro_driver": "1. During the firmware upgrade process, please do not plug in or unplug the device or restart the computer.",
+    "AULA_F108Pro_driver": "1. During the firmware upgrade process, please do not plug in or unplug the device or restart the computer.",
+    "AULA_F75MAX_driver": "1. During the firmware upgrade process, please do not plug in or unplug the device or restart the computer.",
+    "AULA_F98PRO_driver": "1. During the firmware upgrade process, please do not plug in or unplug the device or restart the computer.",
+    "AULA_F98pro_V3_driver": "1. During the firmware upgrade process, please do not plug in or unplug the device or restart the computer."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "182",
+   "values": {
+    "AULA_F106Pro_driver": "2. If the firmware upgrade fails, please try to upgrade the firmware again.",
+    "AULA_F108Pro_driver": "2. If the firmware upgrade fails, please try to upgrade the firmware again.",
+    "AULA_F75MAX_driver": "2. If the firmware upgrade fails, please try to upgrade the firmware again.",
+    "AULA_F98PRO_driver": "2. If the firmware upgrade fails, please try to upgrade the firmware again.",
+    "AULA_F98pro_V3_driver": "2. If the firmware upgrade fails, please try to upgrade the firmware again."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "183",
+   "values": {
+    "AULA_F106Pro_driver": "Warning",
+    "AULA_F108Pro_driver": "Warning",
+    "AULA_F75MAX_driver": "Warning",
+    "AULA_F98PRO_driver": "Warning",
+    "AULA_F98pro_V3_driver": "Warning"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "185",
+   "values": {
+    "AULA_F106Pro_driver": "Upgrade",
+    "AULA_F108Pro_driver": "Upgrade",
+    "AULA_F75MAX_driver": "Upgrade",
+    "AULA_F98PRO_driver": "Upgrade",
+    "AULA_F98pro_V3_driver": "Upgrade"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "186",
+   "values": {
+    "AULA_F106Pro_driver": "Cancel",
+    "AULA_F108Pro_driver": "Cancel",
+    "AULA_F75MAX_driver": "Cancel",
+    "AULA_F98PRO_driver": "Cancel",
+    "AULA_F98pro_V3_driver": "Cancel"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "201",
+   "values": {
+    "AULA_F106Pro_driver": "Default Key",
+    "AULA_F108Pro_driver": "Default Key",
+    "AULA_F75MAX_driver": "Default Key",
+    "AULA_F87_Wired_driver": "Default Function",
+    "AULA_F98PRO_driver": "Default Key",
+    "AULA_F98pro_V3_driver": "Default Key"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "202",
+   "values": {
+    "AULA_F106Pro_driver": "Disable Key",
+    "AULA_F108Pro_driver": "Disable Key",
+    "AULA_F75MAX_driver": "Disable Key",
+    "AULA_F87_Wired_driver": "Disable Key",
+    "AULA_F98PRO_driver": "Disable Key",
+    "AULA_F98pro_V3_driver": "Disable Key"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "203",
+   "values": {
+    "AULA_F106Pro_driver": "Custom Function",
+    "AULA_F108Pro_driver": "Custom Function",
+    "AULA_F75MAX_driver": "Custom Function",
+    "AULA_F87_Wired_driver": "Custom Functions",
+    "AULA_F98PRO_driver": "Custom Function",
+    "AULA_F98pro_V3_driver": "Custom Function"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "204",
+   "values": {
+    "AULA_F106Pro_driver": "Key Type",
+    "AULA_F108Pro_driver": "Key Type",
+    "AULA_F75MAX_driver": "Key Type",
+    "AULA_F87_Wired_driver": "Key Type",
+    "AULA_F98PRO_driver": "Key Type",
+    "AULA_F98pro_V3_driver": "Key Type"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "205",
+   "values": {
+    "AULA_F106Pro_driver": "Key Function",
+    "AULA_F108Pro_driver": "Key Function",
+    "AULA_F75MAX_driver": "Key Function",
+    "AULA_F87_Wired_driver": "Key Function",
+    "AULA_F98PRO_driver": "Key Function",
+    "AULA_F98pro_V3_driver": "Key Function"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "206",
+   "values": {
+    "AULA_F106Pro_driver": "Macro Definition",
+    "AULA_F108Pro_driver": "Macro Definition",
+    "AULA_F75MAX_driver": "Macro Definition",
+    "AULA_F87_Wired_driver": "Macro",
+    "AULA_F98PRO_driver": "Macro Definition",
+    "AULA_F98pro_V3_driver": "Macro Definition"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "207",
+   "values": {
+    "AULA_F106Pro_driver": "Mouse Function",
+    "AULA_F108Pro_driver": "Mouse Function",
+    "AULA_F75MAX_driver": "Mouse Function",
+    "AULA_F87_Wired_driver": "Mouse",
+    "AULA_F98PRO_driver": "Mouse Function",
+    "AULA_F98pro_V3_driver": "Mouse Function"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "208",
+   "values": {
+    "AULA_F106Pro_driver": "Multimedia",
+    "AULA_F108Pro_driver": "Multimedia",
+    "AULA_F75MAX_driver": "Multimedia",
+    "AULA_F87_Wired_driver": "Multimedia",
+    "AULA_F98PRO_driver": "Multimedia",
+    "AULA_F98pro_V3_driver": "Multimedia"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "209",
+   "values": {
+    "AULA_F106Pro_driver": "Windows Shortcut",
+    "AULA_F108Pro_driver": "Windows Shortcut",
+    "AULA_F75MAX_driver": "Windows Shortcut",
+    "AULA_F87_Wired_driver": "Function Key",
+    "AULA_F98PRO_driver": "Windows Shortcut",
+    "AULA_F98pro_V3_driver": "Windows Shortcut"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "210",
+   "values": {
+    "AULA_F106Pro_driver": "Open Program",
+    "AULA_F108Pro_driver": "Open Program",
+    "AULA_F75MAX_driver": "Open Program",
+    "AULA_F87_Wired_driver": "Open Application",
+    "AULA_F98PRO_driver": "Open Program",
+    "AULA_F98pro_V3_driver": "Open Program"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "211",
+   "values": {
+    "AULA_F106Pro_driver": "Open Website",
+    "AULA_F108Pro_driver": "Open Website",
+    "AULA_F75MAX_driver": "Open Website",
+    "AULA_F87_Wired_driver": "Open Website",
+    "AULA_F98PRO_driver": "Open Website",
+    "AULA_F98pro_V3_driver": "Open Website"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "212",
+   "values": {
+    "AULA_F106Pro_driver": "Send Text",
+    "AULA_F108Pro_driver": "Send Text",
+    "AULA_F75MAX_driver": "Send Text",
+    "AULA_F87_Wired_driver": "Send Text",
+    "AULA_F98PRO_driver": "Send Text",
+    "AULA_F98pro_V3_driver": "Send Text"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "213",
+   "values": {
+    "AULA_F106Pro_driver": "Multi-Key",
+    "AULA_F108Pro_driver": "Multi-Key",
+    "AULA_F75MAX_driver": "Multi-Key",
+    "AULA_F98PRO_driver": "Multi-Key",
+    "AULA_F98pro_V3_driver": "Multi-Key"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "218",
+   "values": {
+    "AULA_F106Pro_driver": "Open File",
+    "AULA_F108Pro_driver": "Open File",
+    "AULA_F75MAX_driver": "Open File",
+    "AULA_F87_Wired_driver": "Open File",
+    "AULA_F98PRO_driver": "Open File",
+    "AULA_F98pro_V3_driver": "Open File"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "220",
+   "values": {
+    "AULA_F106Pro_driver": "Left Click",
+    "AULA_F108Pro_driver": "Left Click",
+    "AULA_F75MAX_driver": "Left Click",
+    "AULA_F87_Wired_driver": "Left-Click",
+    "AULA_F98PRO_driver": "Left Click",
+    "AULA_F98pro_V3_driver": "Left Click"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "222",
+   "values": {
+    "AULA_F106Pro_driver": "Middle Click",
+    "AULA_F108Pro_driver": "Middle Click",
+    "AULA_F75MAX_driver": "Middle Click",
+    "AULA_F87_Wired_driver": "Middle-Click",
+    "AULA_F98PRO_driver": "Middle Click",
+    "AULA_F98pro_V3_driver": "Middle Click"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "223",
+   "values": {
+    "AULA_F106Pro_driver": "Right Click",
+    "AULA_F108Pro_driver": "Right Click",
+    "AULA_F75MAX_driver": "Right Click",
+    "AULA_F87_Wired_driver": "Right-Click",
+    "AULA_F98PRO_driver": "Right Click",
+    "AULA_F98pro_V3_driver": "Right Click"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "224",
+   "values": {
+    "AULA_F106Pro_driver": "Double Click",
+    "AULA_F108Pro_driver": "Double Click",
+    "AULA_F75MAX_driver": "Double Click",
+    "AULA_F87_Wired_driver": "Double-Click",
+    "AULA_F98PRO_driver": "Double Click",
+    "AULA_F98pro_V3_driver": "Double Click"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "225",
+   "values": {
+    "AULA_F106Pro_driver": "Scroll Up",
+    "AULA_F108Pro_driver": "Scroll Up",
+    "AULA_F75MAX_driver": "Scroll Up",
+    "AULA_F87_Wired_driver": "Scroll Up",
+    "AULA_F98PRO_driver": "Scroll Up",
+    "AULA_F98pro_V3_driver": "Scroll Up"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "226",
+   "values": {
+    "AULA_F106Pro_driver": "Scroll Down",
+    "AULA_F108Pro_driver": "Scroll Down",
+    "AULA_F75MAX_driver": "Scroll Down",
+    "AULA_F87_Wired_driver": "Scroll Down",
+    "AULA_F98PRO_driver": "Scroll Down",
+    "AULA_F98pro_V3_driver": "Scroll Down"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "227",
+   "values": {
+    "AULA_F106Pro_driver": "Mouse Button 5",
+    "AULA_F108Pro_driver": "Mouse Button 5",
+    "AULA_F75MAX_driver": "Mouse Button 5",
+    "AULA_F87_Wired_driver": "Forward",
+    "AULA_F98PRO_driver": "Mouse Button 5",
+    "AULA_F98pro_V3_driver": "Mouse Button 5"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "228",
+   "values": {
+    "AULA_F106Pro_driver": "Mouse Button 4",
+    "AULA_F108Pro_driver": "Mouse Button 4",
+    "AULA_F75MAX_driver": "Mouse Button 4",
+    "AULA_F87_Wired_driver": "Backward",
+    "AULA_F98PRO_driver": "Mouse Button 4",
+    "AULA_F98pro_V3_driver": "Mouse Button 4"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "230",
+   "values": {
+    "AULA_F106Pro_driver": "Play/Pause",
+    "AULA_F108Pro_driver": "Play/Pause",
+    "AULA_F75MAX_driver": "Play/Pause",
+    "AULA_F87_Wired_driver": "Play/Pause",
+    "AULA_F98PRO_driver": "Play/Pause",
+    "AULA_F98pro_V3_driver": "Play/Pause"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "231",
+   "values": {
+    "AULA_F106Pro_driver": "Stop",
+    "AULA_F108Pro_driver": "Stop",
+    "AULA_F75MAX_driver": "Stop",
+    "AULA_F87_Wired_driver": "Stop",
+    "AULA_F98PRO_driver": "Stop",
+    "AULA_F98pro_V3_driver": "Stop"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "232",
+   "values": {
+    "AULA_F106Pro_driver": "Previous Track",
+    "AULA_F108Pro_driver": "Previous Track",
+    "AULA_F75MAX_driver": "Previous Track",
+    "AULA_F87_Wired_driver": "Previous",
+    "AULA_F98PRO_driver": "Previous Track",
+    "AULA_F98pro_V3_driver": "Previous Track"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "233",
+   "values": {
+    "AULA_F106Pro_driver": "Next Track",
+    "AULA_F108Pro_driver": "Next Track",
+    "AULA_F75MAX_driver": "Next Track",
+    "AULA_F87_Wired_driver": "Next",
+    "AULA_F98PRO_driver": "Next Track",
+    "AULA_F98pro_V3_driver": "Next Track"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "234",
+   "values": {
+    "AULA_F106Pro_driver": "Volume +",
+    "AULA_F108Pro_driver": "Volume +",
+    "AULA_F75MAX_driver": "Volume +",
+    "AULA_F87_Wired_driver": "Volume +",
+    "AULA_F98PRO_driver": "Volume +",
+    "AULA_F98pro_V3_driver": "Volume +"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "235",
+   "values": {
+    "AULA_F106Pro_driver": "Volume -",
+    "AULA_F108Pro_driver": "Volume -",
+    "AULA_F75MAX_driver": "Volume -",
+    "AULA_F87_Wired_driver": "Volume -",
+    "AULA_F98PRO_driver": "Volume -",
+    "AULA_F98pro_V3_driver": "Volume -"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "236",
+   "values": {
+    "AULA_F106Pro_driver": "Mute",
+    "AULA_F108Pro_driver": "Mute",
+    "AULA_F75MAX_driver": "Mute",
+    "AULA_F87_Wired_driver": "Mute",
+    "AULA_F98PRO_driver": "Mute",
+    "AULA_F98pro_V3_driver": "Mute"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "237",
+   "values": {
+    "AULA_F106Pro_driver": "This key cannot be set.",
+    "AULA_F108Pro_driver": "This key cannot be set.",
+    "AULA_F75MAX_driver": "This key cannot be set.",
+    "AULA_F98PRO_driver": "This key cannot be set.",
+    "AULA_F98pro_V3_driver": "This key cannot be set."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "238",
+   "values": {
+    "AULA_F106Pro_driver": "Click left mouse button to change key settings, and click right mouse button to select more functions.",
+    "AULA_F108Pro_driver": "Click left mouse button to change key settings, and click right mouse button to select more functions.",
+    "AULA_F75MAX_driver": "Click left mouse button to change key settings, and click right mouse button to select more functions.",
+    "AULA_F98PRO_driver": "Click left mouse button to change key settings, and click right mouse button to select more functions.",
+    "AULA_F98pro_V3_driver": "Click left mouse button to change key settings, and click right mouse button to select more functions."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "241",
+   "values": {
+    "AULA_F106Pro_driver": "Please select a type",
+    "AULA_F108Pro_driver": "Please select a type",
+    "AULA_F75MAX_driver": "Please select a type",
+    "AULA_F98PRO_driver": "Please select a type",
+    "AULA_F98pro_V3_driver": "Please select a type"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "242",
+   "values": {
+    "AULA_F106Pro_driver": "Play Once",
+    "AULA_F108Pro_driver": "Play Once",
+    "AULA_F75MAX_driver": "Play Once",
+    "AULA_F98PRO_driver": "Play Once",
+    "AULA_F98pro_V3_driver": "Play Once"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "243",
+   "values": {
+    "AULA_F106Pro_driver": "Play Multiple Times",
+    "AULA_F108Pro_driver": "Play Multiple Times",
+    "AULA_F75MAX_driver": "Play Multiple Times",
+    "AULA_F98PRO_driver": "Play Multiple Times",
+    "AULA_F98pro_V3_driver": "Play Multiple Times"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "244",
+   "values": {
+    "AULA_F106Pro_driver": "Stop when key is pressed again",
+    "AULA_F108Pro_driver": "Stop when key is pressed again",
+    "AULA_F75MAX_driver": "Stop when key is pressed again",
+    "AULA_F98PRO_driver": "Stop when key is pressed again",
+    "AULA_F98pro_V3_driver": "Stop when key is pressed again"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "245",
+   "values": {
+    "AULA_F106Pro_driver": "Loop Count (1 ~ 255)",
+    "AULA_F108Pro_driver": "Loop Count (1 ~ 255)",
+    "AULA_F75MAX_driver": "Loop Count (1 ~ 255)",
+    "AULA_F98PRO_driver": "Loop Count (1 ~ 255)",
+    "AULA_F98pro_V3_driver": "Loop Count (1 ~ 255)"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "246",
+   "values": {
+    "AULA_F106Pro_driver": "Release to stop",
+    "AULA_F108Pro_driver": "Release to stop",
+    "AULA_F75MAX_driver": "Release to stop",
+    "AULA_F98PRO_driver": "Release to stop",
+    "AULA_F98pro_V3_driver": "Release to stop"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "247",
+   "values": {
+    "AULA_F106Pro_driver": "Click to play",
+    "AULA_F108Pro_driver": "Click to play",
+    "AULA_F75MAX_driver": "Click to play",
+    "AULA_F98PRO_driver": "Click to play",
+    "AULA_F98pro_V3_driver": "Click to play"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "251",
+   "values": {
+    "AULA_F106Pro_driver": "Show Desktop",
+    "AULA_F108Pro_driver": "Show Desktop",
+    "AULA_F75MAX_driver": "Show Desktop",
+    "AULA_F87_Wired_driver": "Show desktop",
+    "AULA_F98PRO_driver": "Show Desktop",
+    "AULA_F98pro_V3_driver": "Show Desktop"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "252",
+   "values": {
+    "AULA_F106Pro_driver": "My Computer",
+    "AULA_F108Pro_driver": "My Computer",
+    "AULA_F75MAX_driver": "My Computer",
+    "AULA_F87_Wired_driver": "My Computer",
+    "AULA_F98PRO_driver": "My Computer",
+    "AULA_F98pro_V3_driver": "My Computer"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "253",
+   "values": {
+    "AULA_F106Pro_driver": "Lock Computer",
+    "AULA_F108Pro_driver": "Lock Computer",
+    "AULA_F75MAX_driver": "Lock Computer",
+    "AULA_F87_Wired_driver": "Lock computer",
+    "AULA_F98PRO_driver": "Lock Computer",
+    "AULA_F98pro_V3_driver": "Lock Computer"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "254",
+   "values": {
+    "AULA_F106Pro_driver": "Close Window",
+    "AULA_F108Pro_driver": "Close Window",
+    "AULA_F75MAX_driver": "Close Window",
+    "AULA_F87_Wired_driver": "Close window",
+    "AULA_F98PRO_driver": "Close Window",
+    "AULA_F98pro_V3_driver": "Close Window"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "255",
+   "values": {
+    "AULA_F106Pro_driver": "Switch Windows",
+    "AULA_F108Pro_driver": "Switch Windows",
+    "AULA_F75MAX_driver": "Switch Windows",
+    "AULA_F87_Wired_driver": "Switch Windows",
+    "AULA_F98PRO_driver": "Switch Windows",
+    "AULA_F98pro_V3_driver": "Switch Windows"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "256",
+   "values": {
+    "AULA_F106Pro_driver": "Log Off",
+    "AULA_F108Pro_driver": "Log Off",
+    "AULA_F75MAX_driver": "Log Off",
+    "AULA_F87_Wired_driver": "Logout",
+    "AULA_F98PRO_driver": "Log Off",
+    "AULA_F98pro_V3_driver": "Log Off"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "257",
+   "values": {
+    "AULA_F106Pro_driver": "Sleep",
+    "AULA_F108Pro_driver": "Sleep",
+    "AULA_F75MAX_driver": "Sleep",
+    "AULA_F87_Wired_driver": "Sleep",
+    "AULA_F98PRO_driver": "Sleep",
+    "AULA_F98pro_V3_driver": "Sleep"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "258",
+   "values": {
+    "AULA_F106Pro_driver": "Shutdown",
+    "AULA_F108Pro_driver": "Shutdown",
+    "AULA_F75MAX_driver": "Shutdown",
+    "AULA_F87_Wired_driver": "Shut down",
+    "AULA_F98PRO_driver": "Shutdown",
+    "AULA_F98pro_V3_driver": "Shutdown"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "259",
+   "values": {
+    "AULA_F106Pro_driver": "Restart",
+    "AULA_F108Pro_driver": "Restart",
+    "AULA_F75MAX_driver": "Restart",
+    "AULA_F87_Wired_driver": "Restart",
+    "AULA_F98PRO_driver": "Restart",
+    "AULA_F98pro_V3_driver": "Restart"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "270",
+   "values": {
+    "AULA_F106Pro_driver": "Calculator",
+    "AULA_F108Pro_driver": "Calculator",
+    "AULA_F75MAX_driver": "Calculator",
+    "AULA_F87_Wired_driver": "Calculator",
+    "AULA_F98PRO_driver": "Calculator",
+    "AULA_F98pro_V3_driver": "Calculator"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "271",
+   "values": {
+    "AULA_F106Pro_driver": "Mail",
+    "AULA_F108Pro_driver": "Mail",
+    "AULA_F75MAX_driver": "Mail",
+    "AULA_F87_Wired_driver": "EMail",
+    "AULA_F98PRO_driver": "Mail",
+    "AULA_F98pro_V3_driver": "Mail"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "272",
+   "values": {
+    "AULA_F106Pro_driver": "Multimedia",
+    "AULA_F108Pro_driver": "Multimedia",
+    "AULA_F75MAX_driver": "Multimedia",
+    "AULA_F87_Wired_driver": "Multimedia",
+    "AULA_F98PRO_driver": "Multimedia",
+    "AULA_F98pro_V3_driver": "Multimedia"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "273",
+   "values": {
+    "AULA_F106Pro_driver": "Homepage",
+    "AULA_F108Pro_driver": "Homepage",
+    "AULA_F75MAX_driver": "Homepage",
+    "AULA_F87_Wired_driver": "Home",
+    "AULA_F98PRO_driver": "Homepage",
+    "AULA_F98pro_V3_driver": "Homepage"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "274",
+   "values": {
+    "AULA_F106Pro_driver": "Web Page - Refresh",
+    "AULA_F108Pro_driver": "Web Page - Refresh",
+    "AULA_F75MAX_driver": "Web Page - Refresh",
+    "AULA_F87_Wired_driver": "Web-Refresh",
+    "AULA_F98PRO_driver": "Web Page - Refresh",
+    "AULA_F98pro_V3_driver": "Web Page - Refresh"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "275",
+   "values": {
+    "AULA_F106Pro_driver": "Web Page - Stop",
+    "AULA_F108Pro_driver": "Web Page - Stop",
+    "AULA_F75MAX_driver": "Web Page - Stop",
+    "AULA_F87_Wired_driver": "Web-Stop",
+    "AULA_F98PRO_driver": "Web Page - Stop",
+    "AULA_F98pro_V3_driver": "Web Page - Stop"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "276",
+   "values": {
+    "AULA_F106Pro_driver": "Web Page - Back",
+    "AULA_F108Pro_driver": "Web Page - Back",
+    "AULA_F75MAX_driver": "Web Page - Back",
+    "AULA_F87_Wired_driver": "Web-Backward",
+    "AULA_F98PRO_driver": "Web Page - Back",
+    "AULA_F98pro_V3_driver": "Web Page - Back"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "277",
+   "values": {
+    "AULA_F106Pro_driver": "Web Page - Forward",
+    "AULA_F108Pro_driver": "Web Page - Forward",
+    "AULA_F75MAX_driver": "Web Page - Forward",
+    "AULA_F87_Wired_driver": "Web-Forward",
+    "AULA_F98PRO_driver": "Web Page - Forward",
+    "AULA_F98pro_V3_driver": "Web Page - Forward"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "278",
+   "values": {
+    "AULA_F106Pro_driver": "Web Page - Favorites",
+    "AULA_F108Pro_driver": "Web Page - Favorites",
+    "AULA_F75MAX_driver": "Web Page - Favorites",
+    "AULA_F87_Wired_driver": "Web-Favorites",
+    "AULA_F98PRO_driver": "Web Page - Favorites",
+    "AULA_F98pro_V3_driver": "Web Page - Favorites"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "279",
+   "values": {
+    "AULA_F106Pro_driver": "Web Page - Search",
+    "AULA_F108Pro_driver": "Web Page - Search",
+    "AULA_F75MAX_driver": "Web Page - Search",
+    "AULA_F87_Wired_driver": "Web-Search",
+    "AULA_F98PRO_driver": "Web Page - Search",
+    "AULA_F98pro_V3_driver": "Web Page - Search"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "290",
+   "values": {
+    "AULA_F106Pro_driver": "Top Layer",
+    "AULA_F108Pro_driver": "Top Layer",
+    "AULA_F75MAX_driver": "Top Layer",
+    "AULA_F98PRO_driver": "Top Layer",
+    "AULA_F98pro_V3_driver": "Top Layer"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "291",
+   "values": {
+    "AULA_F106Pro_driver": "Fn Layer",
+    "AULA_F108Pro_driver": "Fn Layer",
+    "AULA_F75MAX_driver": "Fn Layer",
+    "AULA_F98PRO_driver": "Fn Layer",
+    "AULA_F98pro_V3_driver": "Fn Layer"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "292",
+   "values": {
+    "AULA_F106Pro_driver": "Fn Switch Function",
+    "AULA_F108Pro_driver": "Fn Switch Function",
+    "AULA_F75MAX_driver": "Fn Switch Function",
+    "AULA_F98PRO_driver": "Fn Switch Function",
+    "AULA_F98pro_V3_driver": "Fn Switch Function"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "293",
+   "values": {
+    "AULA_F106Pro_driver": "Momentary",
+    "AULA_F108Pro_driver": "Momentary",
+    "AULA_F75MAX_driver": "Momentary",
+    "AULA_F98PRO_driver": "Momentary",
+    "AULA_F98pro_V3_driver": "Momentary"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "294",
+   "values": {
+    "AULA_F106Pro_driver": "Toggle",
+    "AULA_F108Pro_driver": "Toggle",
+    "AULA_F75MAX_driver": "Toggle",
+    "AULA_F98PRO_driver": "Toggle",
+    "AULA_F98pro_V3_driver": "Toggle"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "295",
+   "values": {
+    "AULA_F106Pro_driver": "Edit custom shortcut for single key",
+    "AULA_F108Pro_driver": "Edit custom shortcut for single key",
+    "AULA_F75MAX_driver": "Edit custom shortcut for single key",
+    "AULA_F98PRO_driver": "Edit custom shortcut for single key",
+    "AULA_F98pro_V3_driver": "Edit custom shortcut for single key"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "296",
+   "values": {
+    "AULA_F106Pro_driver": "Edit custom shortcut for (Fn+single key)",
+    "AULA_F108Pro_driver": "Edit custom shortcut for (Fn+single key)",
+    "AULA_F75MAX_driver": "Edit custom shortcut for (Fn+single key)",
+    "AULA_F98PRO_driver": "Edit custom shortcut for (Fn+single key)",
+    "AULA_F98pro_V3_driver": "Edit custom shortcut for (Fn+single key)"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "297",
+   "values": {
+    "AULA_F106Pro_driver": "Output the result of editing single key directly",
+    "AULA_F108Pro_driver": "Output the result of editing single key directly",
+    "AULA_F75MAX_driver": "Output the result of editing single key directly",
+    "AULA_F98PRO_driver": "Output the result of editing single key directly",
+    "AULA_F98pro_V3_driver": "Output the result of editing single key directly"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "298",
+   "values": {
+    "AULA_F106Pro_driver": "Output the result of editing combination key directly",
+    "AULA_F108Pro_driver": "Output the result of editing combination key directly",
+    "AULA_F75MAX_driver": "Output the result of editing combination key directly",
+    "AULA_F98PRO_driver": "Output the result of editing combination key directly",
+    "AULA_F98pro_V3_driver": "Output the result of editing combination key directly"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "300",
+   "values": {
+    "AULA_F106Pro_driver": " Input Record List",
+    "AULA_F108Pro_driver": " Input Record List",
+    "AULA_F75MAX_driver": "Input Record List",
+    "AULA_F87_Wired_driver": "Macro List",
+    "AULA_F98PRO_driver": " Input Record List",
+    "AULA_F98pro_V3_driver": " Input Record List"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "301",
+   "values": {
+    "AULA_F106Pro_driver": "Edit Recorded Macro File",
+    "AULA_F108Pro_driver": "Edit Recorded Macro File",
+    "AULA_F75MAX_driver": "Edit Recorded Macro File",
+    "AULA_F87_Wired_driver": "Insert event",
+    "AULA_F98PRO_driver": "Edit Recorded Macro File",
+    "AULA_F98pro_V3_driver": "Edit Recorded Macro File"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "302",
+   "values": {
+    "AULA_F106Pro_driver": "Insert Above the Cursor in Action List",
+    "AULA_F108Pro_driver": "Insert Above the Cursor in Action List",
+    "AULA_F75MAX_driver": "Insert Above the Cursor in Action List",
+    "AULA_F87_Wired_driver": "Insert Event Before",
+    "AULA_F98PRO_driver": "Insert Above the Cursor in Action List",
+    "AULA_F98pro_V3_driver": "Insert Above the Cursor in Action List"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "303",
+   "values": {
+    "AULA_F106Pro_driver": "Insert Below the Cursor in Action List",
+    "AULA_F108Pro_driver": "Insert Below the Cursor in Action List",
+    "AULA_F75MAX_driver": "Insert Below the Cursor in Action List",
+    "AULA_F87_Wired_driver": "Insert Event After",
+    "AULA_F98PRO_driver": "Insert Below the Cursor in Action List",
+    "AULA_F98pro_V3_driver": "Insert Below the Cursor in Action List"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "304",
+   "values": {
+    "AULA_F106Pro_driver": "Keyboard Input",
+    "AULA_F108Pro_driver": "Keyboard Input",
+    "AULA_F75MAX_driver": "Keyboard Input",
+    "AULA_F87_Wired_driver": "Keyboard",
+    "AULA_F98PRO_driver": "Keyboard Input",
+    "AULA_F98pro_V3_driver": "Keyboard Input"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "305",
+   "values": {
+    "AULA_F106Pro_driver": "Mouse Input",
+    "AULA_F108Pro_driver": "Mouse Input",
+    "AULA_F75MAX_driver": "Mouse Input",
+    "AULA_F87_Wired_driver": "Mouse",
+    "AULA_F98PRO_driver": "Mouse Input",
+    "AULA_F98pro_V3_driver": "Mouse Input"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "306",
+   "values": {
+    "AULA_F106Pro_driver": "Record Input",
+    "AULA_F108Pro_driver": "Record Input",
+    "AULA_F75MAX_driver": "Record Input",
+    "AULA_F87_Wired_driver": "Delay",
+    "AULA_F98PRO_driver": "Record Input",
+    "AULA_F98pro_V3_driver": "Record Input"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "307",
+   "values": {
+    "AULA_F106Pro_driver": "Left Mouse Button",
+    "AULA_F108Pro_driver": "Left Mouse Button",
+    "AULA_F75MAX_driver": "Left Mouse Button",
+    "AULA_F87_Wired_driver": "Left mouse button",
+    "AULA_F98PRO_driver": "Left Mouse Button",
+    "AULA_F98pro_V3_driver": "Left Mouse Button"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "308",
+   "values": {
+    "AULA_F106Pro_driver": "Middle Mouse Button",
+    "AULA_F108Pro_driver": "Middle Mouse Button",
+    "AULA_F75MAX_driver": "Middle Mouse Button",
+    "AULA_F87_Wired_driver": "Middle mouse button",
+    "AULA_F98PRO_driver": "Middle Mouse Button",
+    "AULA_F98pro_V3_driver": "Middle Mouse Button"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "309",
+   "values": {
+    "AULA_F106Pro_driver": "Right Mouse Button",
+    "AULA_F108Pro_driver": "Right Mouse Button",
+    "AULA_F75MAX_driver": "Right Mouse Button",
+    "AULA_F87_Wired_driver": "Right mouse button",
+    "AULA_F98PRO_driver": "Right Mouse Button",
+    "AULA_F98pro_V3_driver": "Right Mouse Button"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "310",
+   "values": {
+    "AULA_F106Pro_driver": "Insert",
+    "AULA_F108Pro_driver": "Insert",
+    "AULA_F75MAX_driver": "Insert",
+    "AULA_F87_Wired_driver": "Insert",
+    "AULA_F98PRO_driver": "Insert",
+    "AULA_F98pro_V3_driver": "Insert"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "311",
+   "values": {
+    "AULA_F106Pro_driver": "New",
+    "AULA_F108Pro_driver": "New",
+    "AULA_F75MAX_driver": "New",
+    "AULA_F87_Wired_driver": "New",
+    "AULA_F98PRO_driver": "New",
+    "AULA_F98pro_V3_driver": "New"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "312",
+   "values": {
+    "AULA_F106Pro_driver": "Delete",
+    "AULA_F108Pro_driver": "Delete",
+    "AULA_F75MAX_driver": "Delete",
+    "AULA_F87_Wired_driver": "Delete",
+    "AULA_F98PRO_driver": "Delete",
+    "AULA_F98pro_V3_driver": "Delete"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "316",
+   "values": {
+    "AULA_F106Pro_driver": "Repeat Count",
+    "AULA_F108Pro_driver": "Repeat Count",
+    "AULA_F75MAX_driver": "Repeat Count",
+    "AULA_F87_Wired_driver": "Repeat Time",
+    "AULA_F98PRO_driver": "Repeat Count",
+    "AULA_F98pro_V3_driver": "Repeat Count"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "317",
+   "values": {
+    "AULA_F106Pro_driver": "Record Input Interval Time",
+    "AULA_F108Pro_driver": "Record Input Interval Time",
+    "AULA_F75MAX_driver": "Record Input Interval Time",
+    "AULA_F87_Wired_driver": "Record Delay",
+    "AULA_F98PRO_driver": "Record Input Interval Time",
+    "AULA_F98pro_V3_driver": "Record Input Interval Time"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "318",
+   "values": {
+    "AULA_F106Pro_driver": "Do Not Record Input Interval Time",
+    "AULA_F108Pro_driver": "Do Not Record Input Interval Time",
+    "AULA_F75MAX_driver": "Do Not Record Input Interval Time",
+    "AULA_F87_Wired_driver": "No Delay",
+    "AULA_F98PRO_driver": "Do Not Record Input Interval Time",
+    "AULA_F98pro_V3_driver": "Do Not Record Input Interval Time"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "319",
+   "values": {
+    "AULA_F106Pro_driver": "Default Interval",
+    "AULA_F108Pro_driver": "Default Interval",
+    "AULA_F75MAX_driver": "Default Interval",
+    "AULA_F87_Wired_driver": "Default",
+    "AULA_F98PRO_driver": "Default Interval",
+    "AULA_F98pro_V3_driver": "Default Interval"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "320",
+   "values": {
+    "AULA_F106Pro_driver": "ms",
+    "AULA_F108Pro_driver": "ms",
+    "AULA_F75MAX_driver": "ms",
+    "AULA_F87_Wired_driver": "MS",
+    "AULA_F98PRO_driver": "ms",
+    "AULA_F98pro_V3_driver": "ms"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "321",
+   "values": {
+    "AULA_F106Pro_driver": "Start Recording",
+    "AULA_F108Pro_driver": "Start Recording",
+    "AULA_F75MAX_driver": "Start Recording",
+    "AULA_F87_Wired_driver": "Record",
+    "AULA_F98PRO_driver": "Start Recording",
+    "AULA_F98pro_V3_driver": "Start Recording"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "322",
+   "values": {
+    "AULA_F106Pro_driver": "Stop Recording",
+    "AULA_F108Pro_driver": "Stop Recording",
+    "AULA_F75MAX_driver": "Stop Recording",
+    "AULA_F87_Wired_driver": "Stop",
+    "AULA_F98PRO_driver": "Stop Recording",
+    "AULA_F98pro_V3_driver": "Stop Recording"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "323",
+   "values": {
+    "AULA_F106Pro_driver": "Action Record List",
+    "AULA_F108Pro_driver": "Action Record List",
+    "AULA_F75MAX_driver": "Action Record List",
+    "AULA_F87_Wired_driver": "Macro Record",
+    "AULA_F98PRO_driver": "Action Record List",
+    "AULA_F98pro_V3_driver": "Action Record List"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "325",
+   "values": {
+    "AULA_F106Pro_driver": "Modify Delay Time",
+    "AULA_F108Pro_driver": "Modify Delay Time",
+    "AULA_F75MAX_driver": "Modify Delay Time",
+    "AULA_F87_Wired_driver": "Modify delay time",
+    "AULA_F98PRO_driver": "Modify Delay Time",
+    "AULA_F98pro_V3_driver": "Modify Delay Time"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "326",
+   "values": {
+    "AULA_F106Pro_driver": "Move Up",
+    "AULA_F108Pro_driver": "Move Up",
+    "AULA_F75MAX_driver": "Move Up",
+    "AULA_F87_Wired_driver": "Move up",
+    "AULA_F98PRO_driver": "Move Up",
+    "AULA_F98pro_V3_driver": "Move Up"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "327",
+   "values": {
+    "AULA_F106Pro_driver": "Move Down",
+    "AULA_F108Pro_driver": "Move Down",
+    "AULA_F75MAX_driver": "Move Down",
+    "AULA_F87_Wired_driver": "Move down",
+    "AULA_F98PRO_driver": "Move Down",
+    "AULA_F98pro_V3_driver": "Move Down"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "329",
+   "values": {
+    "AULA_F106Pro_driver": "Save",
+    "AULA_F108Pro_driver": "Save",
+    "AULA_F75MAX_driver": "Save",
+    "AULA_F87_Wired_driver": "Save",
+    "AULA_F98PRO_driver": "Save",
+    "AULA_F98pro_V3_driver": "Save"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "330",
+   "values": {
+    "AULA_F106Pro_driver": "Renaming failed. Name cannot be empty.",
+    "AULA_F108Pro_driver": "Renaming failed. Name cannot be empty.",
+    "AULA_F75MAX_driver": "Renaming failed. Name cannot be empty.",
+    "AULA_F87_Wired_driver": "Rename failed, name cannot be empty",
+    "AULA_F98PRO_driver": "Renaming failed. Name cannot be empty.",
+    "AULA_F98pro_V3_driver": "Renaming failed. Name cannot be empty."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "331",
+   "values": {
+    "AULA_F106Pro_driver": "New Macro",
+    "AULA_F108Pro_driver": "New Macro",
+    "AULA_F75MAX_driver": "New Macro",
+    "AULA_F87_Wired_driver": "Macro",
+    "AULA_F98PRO_driver": "New Macro",
+    "AULA_F98pro_V3_driver": "New Macro"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "335",
+   "values": {
+    "AULA_F106Pro_driver": "Key",
+    "AULA_F108Pro_driver": "Key",
+    "AULA_F75MAX_driver": "Key",
+    "AULA_F87_Wired_driver": "Desc",
+    "AULA_F98PRO_driver": "Key",
+    "AULA_F98pro_V3_driver": "Key"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "336",
+   "values": {
+    "AULA_F106Pro_driver": "Action",
+    "AULA_F108Pro_driver": "Action",
+    "AULA_F75MAX_driver": "Action",
+    "AULA_F87_Wired_driver": "Action",
+    "AULA_F98PRO_driver": "Action",
+    "AULA_F98pro_V3_driver": "Action"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "337",
+   "values": {
+    "AULA_F106Pro_driver": "Delay(ms)",
+    "AULA_F108Pro_driver": "Delay(ms)",
+    "AULA_F75MAX_driver": "Delay(ms)",
+    "AULA_F87_Wired_driver": "Delay(ms)",
+    "AULA_F98PRO_driver": "Delay(ms)",
+    "AULA_F98pro_V3_driver": "Delay(ms)"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "340",
+   "values": {
+    "AULA_F106Pro_driver": "Please select a macro list item",
+    "AULA_F108Pro_driver": "Please select a macro list item",
+    "AULA_F75MAX_driver": "Please select a macro list item",
+    "AULA_F87_Wired_driver": "Please select macro list item",
+    "AULA_F98PRO_driver": "Please select a macro list item",
+    "AULA_F98pro_V3_driver": "Please select a macro list item"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "341",
+   "values": {
+    "AULA_F106Pro_driver": "Export Macro",
+    "AULA_F108Pro_driver": "Export Macro",
+    "AULA_F75MAX_driver": "Export Macro",
+    "AULA_F87_Wired_driver": "Export Macro",
+    "AULA_F98PRO_driver": "Export Macro",
+    "AULA_F98pro_V3_driver": "Export Macro"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "342",
+   "values": {
+    "AULA_F106Pro_driver": "Please click the \"New\" button to start recording keyboard and mouse input actions.",
+    "AULA_F108Pro_driver": "Please click the \"New\" button to start recording keyboard and mouse input actions.",
+    "AULA_F75MAX_driver": "Please click the \"New\" button to start recording keyboard and mouse input actions.",
+    "AULA_F98PRO_driver": "Please click the \"New\" button to start recording keyboard and mouse input actions.",
+    "AULA_F98pro_V3_driver": "Please click the \"New\" button to start recording keyboard and mouse input actions."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "360",
+   "values": {
+    "AULA_F106Pro_driver": "Macro Recording",
+    "AULA_F108Pro_driver": "Macro Recording",
+    "AULA_F75MAX_driver": "Macro Recording",
+    "AULA_F87_Wired_driver": "There is not enough space for macro recording to record macro",
+    "AULA_F98PRO_driver": "Macro Recording",
+    "AULA_F98pro_V3_driver": "Macro Recording"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "361",
+   "values": {
+    "AULA_F106Pro_driver": "Insufficient space for macro recording. Cannot continue macro recording.",
+    "AULA_F108Pro_driver": "Insufficient space for macro recording. Cannot continue macro recording.",
+    "AULA_F75MAX_driver": "Insufficient space for macro recording. Cannot continue macro recording.",
+    "AULA_F87_Wired_driver": "Macro recording space is running out",
+    "AULA_F98PRO_driver": "Insufficient space for macro recording. Cannot continue macro recording.",
+    "AULA_F98pro_V3_driver": "Insufficient space for macro recording. Cannot continue macro recording."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "362",
+   "values": {
+    "AULA_F106Pro_driver": "Macro recording space is almost full.",
+    "AULA_F108Pro_driver": "Macro recording space is almost full.",
+    "AULA_F75MAX_driver": "Macro recording space is almost full.",
+    "AULA_F87_Wired_driver": "Macro recording space has reached the maximum limit, recording has stopped",
+    "AULA_F98PRO_driver": "Macro recording space is almost full.",
+    "AULA_F98pro_V3_driver": "Macro recording space is almost full."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "363",
+   "values": {
+    "AULA_F106Pro_driver": "Macro recording space has reached the maximum limit. Recording stopped.",
+    "AULA_F108Pro_driver": "Macro recording space has reached the maximum limit. Recording stopped.",
+    "AULA_F75MAX_driver": "Macro recording space has reached the maximum limit. Recording stopped.",
+    "AULA_F87_Wired_driver": "Keyboard can only set 12 actions",
+    "AULA_F98PRO_driver": "Macro recording space has reached the maximum limit. Recording stopped.",
+    "AULA_F98pro_V3_driver": "Macro recording space has reached the maximum limit. Recording stopped."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "369",
+   "values": {
+    "AULA_F106Pro_driver": "Real-time Lighting",
+    "AULA_F108Pro_driver": "Real-time Lighting",
+    "AULA_F75MAX_driver": "Real-time Lighting",
+    "AULA_F87_Wired_driver": "At most 30 actions can be recorded",
+    "AULA_F98PRO_driver": "Real-time Light",
+    "AULA_F98pro_V3_driver": "Real-time Light"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "370",
+   "values": {
+    "AULA_F106Pro_driver": "Static On",
+    "AULA_F108Pro_driver": "Static On",
+    "AULA_F75MAX_driver": "Static On",
+    "AULA_F87_Wired_driver": "Macro recording",
+    "AULA_F98PRO_driver": "Static On",
+    "AULA_F98pro_V3_driver": "Static On"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "371",
+   "values": {
+    "AULA_F106Pro_driver": "Starlight",
+    "AULA_F108Pro_driver": "Starlight",
+    "AULA_F75MAX_driver": "Starlight",
+    "AULA_F98PRO_driver": "Starlight",
+    "AULA_F98pro_V3_driver": "Starlight"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "372",
+   "values": {
+    "AULA_F106Pro_driver": "Fluttering",
+    "AULA_F108Pro_driver": "Fluttering",
+    "AULA_F75MAX_driver": "Fluttering",
+    "AULA_F98PRO_driver": "Fluttering",
+    "AULA_F98pro_V3_driver": "Fluttering"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "373",
+   "values": {
+    "AULA_F106Pro_driver": "Dynamic Breathing",
+    "AULA_F108Pro_driver": "Dynamic Breathing",
+    "AULA_F75MAX_driver": "Dynamic Breathing",
+    "AULA_F98PRO_driver": "Dynamic Breathing",
+    "AULA_F98pro_V3_driver": "Dynamic Breathing"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "374",
+   "values": {
+    "AULA_F106Pro_driver": "Colorful Fountain",
+    "AULA_F108Pro_driver": "Colorful Fountain",
+    "AULA_F75MAX_driver": "Colorful Fountain",
+    "AULA_F98PRO_driver": "Colorful Fountain",
+    "AULA_F98pro_V3_driver": "Colorful Fountain"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "375",
+   "values": {
+    "AULA_F106Pro_driver": "Rainbow Wave",
+    "AULA_F108Pro_driver": "Rainbow Wave",
+    "AULA_F75MAX_driver": "Rainbow Wave",
+    "AULA_F98PRO_driver": "Rainbow Wave",
+    "AULA_F98pro_V3_driver": "Rainbow Wave"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "376",
+   "values": {
+    "AULA_F106Pro_driver": "Following Currents",
+    "AULA_F108Pro_driver": "Following Currents",
+    "AULA_F75MAX_driver": "Following Currents",
+    "AULA_F98PRO_driver": "Following Currents",
+    "AULA_F98pro_V3_driver": "Following Currents"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "377",
+   "values": {
+    "AULA_F106Pro_driver": "Peak Revolving",
+    "AULA_F108Pro_driver": "Peak Revolving",
+    "AULA_F75MAX_driver": "Peak Revolving",
+    "AULA_F98PRO_driver": "Peak Revolving",
+    "AULA_F98pro_V3_driver": "Peak Revolving"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "378",
+   "values": {
+    "AULA_F106Pro_driver": "Turn Off Lighting",
+    "AULA_F108Pro_driver": "Turn Off Lighting",
+    "AULA_F75MAX_driver": "Turn Off Lighting",
+    "AULA_F98PRO_driver": "Turn Off Lighting",
+    "AULA_F98pro_V3_driver": "Turn Off Lighting"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "385",
+   "values": {
+    "AULA_F106Pro_driver": "Please select a custom lighting scheme",
+    "AULA_F108Pro_driver": "Please select a custom lighting scheme",
+    "AULA_F75MAX_driver": "Please select a custom lighting scheme",
+    "AULA_F98PRO_driver": "Please select a custom lighting scheme",
+    "AULA_F98pro_V3_driver": "Please select a custom lighting scheme"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "386",
+   "values": {
+    "AULA_F106Pro_driver": "Export Lighting Scheme",
+    "AULA_F108Pro_driver": "Export Lighting Scheme",
+    "AULA_F75MAX_driver": "Export Lighting Scheme",
+    "AULA_F98PRO_driver": "Export Lighting Scheme",
+    "AULA_F98pro_V3_driver": "Export Lighting Scheme"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "500",
+   "values": {
+    "AULA_F106Pro_driver": "Stellar Epoch",
+    "AULA_F108Pro_driver": "Stellar Epoch",
+    "AULA_F75MAX_driver": "Stellar Epoch",
+    "AULA_F98PRO_driver": "Stellar Epoch",
+    "AULA_F98pro_V3_driver": "Stellar Epoch"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "501",
+   "values": {
+    "AULA_F106Pro_driver": "Gravitational fluctuation",
+    "AULA_F108Pro_driver": "Gravitational fluctuation",
+    "AULA_F75MAX_driver": "Gravitational fluctuation",
+    "AULA_F87_Wired_driver": "Steady",
+    "AULA_F98PRO_driver": "Gravitational fluctuation",
+    "AULA_F98pro_V3_driver": "Gravitational fluctuation"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "502",
+   "values": {
+    "AULA_F106Pro_driver": "Electronic transition",
+    "AULA_F108Pro_driver": "Electronic transition",
+    "AULA_F75MAX_driver": "Electronic transition",
+    "AULA_F87_Wired_driver": "Custom mode",
+    "AULA_F98PRO_driver": "Electronic transition",
+    "AULA_F98pro_V3_driver": "Electronic transition"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "503",
+   "values": {
+    "AULA_F106Pro_driver": "Through wormhole",
+    "AULA_F108Pro_driver": "Through wormhole",
+    "AULA_F75MAX_driver": "Through wormhole",
+    "AULA_F87_Wired_driver": "Breathing",
+    "AULA_F98PRO_driver": "Through wormhole",
+    "AULA_F98pro_V3_driver": "Through wormhole"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "504",
+   "values": {
+    "AULA_F106Pro_driver": "Space foam",
+    "AULA_F108Pro_driver": "Space foam",
+    "AULA_F75MAX_driver": "Space foam",
+    "AULA_F87_Wired_driver": "Windmill",
+    "AULA_F98PRO_driver": "Space foam",
+    "AULA_F98pro_V3_driver": "Space foam"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "505",
+   "values": {
+    "AULA_F106Pro_driver": "Gravity fountain",
+    "AULA_F108Pro_driver": "Gravity fountain",
+    "AULA_F75MAX_driver": "Gravity fountain",
+    "AULA_F87_Wired_driver": "Neon_stream",
+    "AULA_F98PRO_driver": "Gravity fountain",
+    "AULA_F98pro_V3_driver": "Gravity fountain"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "506",
+   "values": {
+    "AULA_F106Pro_driver": "Solar storm",
+    "AULA_F108Pro_driver": "Solar storm",
+    "AULA_F75MAX_driver": "Solar storm",
+    "AULA_F87_Wired_driver": "Streamer",
+    "AULA_F98PRO_driver": "Solar storm",
+    "AULA_F98pro_V3_driver": "Solar storm"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "507",
+   "values": {
+    "AULA_F106Pro_driver": "Ion propulsion",
+    "AULA_F108Pro_driver": "Ion propulsion",
+    "AULA_F75MAX_driver": "Ion propulsion",
+    "AULA_F87_Wired_driver": "Flowing light and color",
+    "AULA_F98PRO_driver": "Ion propulsion",
+    "AULA_F98pro_V3_driver": "Ion propulsion"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "508",
+   "values": {
+    "AULA_F106Pro_driver": "Polarized lightwave",
+    "AULA_F108Pro_driver": "Polarized lightwave",
+    "AULA_F75MAX_driver": "Polarized lightwave",
+    "AULA_F87_Wired_driver": "Dripping ripples",
+    "AULA_F98PRO_driver": "Polarized lightwave",
+    "AULA_F98pro_V3_driver": "Polarized lightwave"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "509",
+   "values": {
+    "AULA_F106Pro_driver": "Time hourglass",
+    "AULA_F108Pro_driver": "Time hourglass",
+    "AULA_F75MAX_driver": "Time hourglass",
+    "AULA_F87_Wired_driver": "Brilliant point",
+    "AULA_F98PRO_driver": "Time hourglass",
+    "AULA_F98pro_V3_driver": "Time hourglass"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "510",
+   "values": {
+    "AULA_F106Pro_driver": "Light particle strike",
+    "AULA_F108Pro_driver": "Light particle strike",
+    "AULA_F75MAX_driver": "Light particle strike",
+    "AULA_F87_Wired_driver": "Flash away",
+    "AULA_F98PRO_driver": "Light particle strike",
+    "AULA_F98pro_V3_driver": "Light particle strike"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "511",
+   "values": {
+    "AULA_F106Pro_driver": "Energy annihilation",
+    "AULA_F108Pro_driver": "Energy annihilation",
+    "AULA_F75MAX_driver": "Energy annihilation",
+    "AULA_F87_Wired_driver": "Shadow_disappear",
+    "AULA_F98PRO_driver": "Energy annihilation",
+    "AULA_F98pro_V3_driver": "Energy annihilation"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "512",
+   "values": {
+    "AULA_F106Pro_driver": "Ultra-membrane broadcasting",
+    "AULA_F108Pro_driver": "Ultra-membrane broadcasting",
+    "AULA_F75MAX_driver": "Ultra-membrane broadcasting",
+    "AULA_F87_Wired_driver": "Ripples shining",
+    "AULA_F98PRO_driver": "Ultra-membrane broadcasting",
+    "AULA_F98pro_V3_driver": "Ultra-membrane broadcasting"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "513",
+   "values": {
+    "AULA_F106Pro_driver": "Space-time warping",
+    "AULA_F108Pro_driver": "Space-time warping",
+    "AULA_F75MAX_driver": "Space-time warping",
+    "AULA_F87_Wired_driver": "Rich and honored",
+    "AULA_F98PRO_driver": "Space-time warping",
+    "AULA_F98pro_V3_driver": "Space-time warping"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "514",
+   "values": {
+    "AULA_F106Pro_driver": "Electromagnetic ejection",
+    "AULA_F108Pro_driver": "Electromagnetic ejection",
+    "AULA_F75MAX_driver": "Electromagnetic ejection",
+    "AULA_F87_Wired_driver": "Marquee effect",
+    "AULA_F98PRO_driver": "Electromagnetic ejection",
+    "AULA_F98pro_V3_driver": "Electromagnetic ejection"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "515",
+   "values": {
+    "AULA_F106Pro_driver": "Particle acceleration",
+    "AULA_F108Pro_driver": "Particle acceleration",
+    "AULA_F75MAX_driver": "Particle acceleration",
+    "AULA_F87_Wired_driver": "Rotating storm",
+    "AULA_F98PRO_driver": "Particle acceleration",
+    "AULA_F98pro_V3_driver": "Particle acceleration"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "516",
+   "values": {
+    "AULA_F106Pro_driver": "Stellar era",
+    "AULA_F108Pro_driver": "Stellar era",
+    "AULA_F75MAX_driver": "Stellar era",
+    "AULA_F87_Wired_driver": "Serpentine horse race",
+    "AULA_F98PRO_driver": "Stellar era",
+    "AULA_F98pro_V3_driver": "Stellar era"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "519",
+   "values": {
+    "AULA_F106Pro_driver": "Backlight Off",
+    "AULA_F108Pro_driver": "Backlight Off",
+    "AULA_F75MAX_driver": "Backlight Off",
+    "AULA_F87_Wired_driver": "Diagonal transformation",
+    "AULA_F98PRO_driver": "Backlight Off",
+    "AULA_F98pro_V3_driver": "Backlight Off"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "517",
+   "values": {
+    "AULA_F106Pro_driver": "Quantum fluctuation",
+    "AULA_F108Pro_driver": "Quantum fluctuation",
+    "AULA_F75MAX_driver": "Quantum fluctuation",
+    "AULA_F87_Wired_driver": "Stars twinkle",
+    "AULA_F98PRO_driver": "Quantum fluctuation",
+    "AULA_F98pro_V3_driver": "Quantum fluctuation"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "518",
+   "values": {
+    "AULA_F106Pro_driver": "Backlight Off",
+    "AULA_F108Pro_driver": "Backlight Off",
+    "AULA_F75MAX_driver": "Backlight Off",
+    "AULA_F87_Wired_driver": "Retro_snake",
+    "AULA_F98PRO_driver": "Backlight Off",
+    "AULA_F98pro_V3_driver": "Backlight Off"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "521",
+   "values": {
+    "AULA_F106Pro_driver": "Static",
+    "AULA_F108Pro_driver": "Static",
+    "AULA_F75MAX_driver": "Static",
+    "AULA_F87_Wired_driver": "Light Off",
+    "AULA_F98PRO_driver": "Static",
+    "AULA_F98pro_V3_driver": "Static"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "522",
+   "values": {
+    "AULA_F106Pro_driver": "SingleOn",
+    "AULA_F108Pro_driver": "SingleOn",
+    "AULA_F75MAX_driver": "SingleOn",
+    "AULA_F98PRO_driver": "SingleOn",
+    "AULA_F98pro_V3_driver": "SingleOn"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "523",
+   "values": {
+    "AULA_F106Pro_driver": "SingleOff",
+    "AULA_F108Pro_driver": "SingleOff",
+    "AULA_F75MAX_driver": "SingleOff",
+    "AULA_F98PRO_driver": "SingleOff",
+    "AULA_F98pro_V3_driver": "SingleOff"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "524",
+   "values": {
+    "AULA_F106Pro_driver": "Glittering",
+    "AULA_F108Pro_driver": "Glittering",
+    "AULA_F75MAX_driver": "Glittering",
+    "AULA_F98PRO_driver": "Glittering",
+    "AULA_F98pro_V3_driver": "Glittering"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "525",
+   "values": {
+    "AULA_F106Pro_driver": "Fluttering",
+    "AULA_F108Pro_driver": "Falling",
+    "AULA_F75MAX_driver": "Falling",
+    "AULA_F98PRO_driver": "Fluttering",
+    "AULA_F98pro_V3_driver": "Fluttering"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "526",
+   "values": {
+    "AULA_F106Pro_driver": "Colourful",
+    "AULA_F108Pro_driver": "Colourful",
+    "AULA_F75MAX_driver": "Colourful",
+    "AULA_F98PRO_driver": "Colourful",
+    "AULA_F98pro_V3_driver": "Colourful"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "527",
+   "values": {
+    "AULA_F106Pro_driver": "Breath",
+    "AULA_F108Pro_driver": "Breath",
+    "AULA_F75MAX_driver": "Breath",
+    "AULA_F98PRO_driver": "Breath",
+    "AULA_F98pro_V3_driver": "Breath"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "528",
+   "values": {
+    "AULA_F106Pro_driver": "Spectrum",
+    "AULA_F108Pro_driver": "Spectrum",
+    "AULA_F75MAX_driver": "Spectrum",
+    "AULA_F98PRO_driver": "Spectrum",
+    "AULA_F98pro_V3_driver": "Spectrum"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "529",
+   "values": {
+    "AULA_F106Pro_driver": "Outward",
+    "AULA_F108Pro_driver": "Outward",
+    "AULA_F75MAX_driver": "Outward",
+    "AULA_F98PRO_driver": "Outward",
+    "AULA_F98pro_V3_driver": "Outward"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "530",
+   "values": {
+    "AULA_F106Pro_driver": "Scrolling",
+    "AULA_F108Pro_driver": "Scrolling",
+    "AULA_F75MAX_driver": "Scrolling",
+    "AULA_F98PRO_driver": "Scrolling",
+    "AULA_F98pro_V3_driver": "Scrolling"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "531",
+   "values": {
+    "AULA_F106Pro_driver": "Rolling",
+    "AULA_F108Pro_driver": "Rolling",
+    "AULA_F75MAX_driver": "Rolling",
+    "AULA_F98PRO_driver": "Rolling",
+    "AULA_F98pro_V3_driver": "Rolling"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "532",
+   "values": {
+    "AULA_F106Pro_driver": "Rotating",
+    "AULA_F108Pro_driver": "Rotating",
+    "AULA_F75MAX_driver": "Rotating",
+    "AULA_F98PRO_driver": "Rotating",
+    "AULA_F98pro_V3_driver": "Rotating"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "533",
+   "values": {
+    "AULA_F106Pro_driver": "Explode",
+    "AULA_F108Pro_driver": "Explode",
+    "AULA_F75MAX_driver": "Explode",
+    "AULA_F98PRO_driver": "Explode",
+    "AULA_F98pro_V3_driver": "Explode"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "534",
+   "values": {
+    "AULA_F106Pro_driver": "Launch",
+    "AULA_F108Pro_driver": "Launch",
+    "AULA_F75MAX_driver": "Launch",
+    "AULA_F98PRO_driver": "Launch",
+    "AULA_F98pro_V3_driver": "Launch"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "535",
+   "values": {
+    "AULA_F106Pro_driver": "Ripples",
+    "AULA_F108Pro_driver": "Ripples",
+    "AULA_F75MAX_driver": "Ripples",
+    "AULA_F98PRO_driver": "Ripples",
+    "AULA_F98pro_V3_driver": "Ripples"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "536",
+   "values": {
+    "AULA_F106Pro_driver": "Flowing",
+    "AULA_F108Pro_driver": "Flowing",
+    "AULA_F75MAX_driver": "Flowing",
+    "AULA_F98PRO_driver": "Flowing",
+    "AULA_F98pro_V3_driver": "Flowing"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "537",
+   "values": {
+    "AULA_F106Pro_driver": "Pulsating",
+    "AULA_F108Pro_driver": "Pulsating",
+    "AULA_F75MAX_driver": "Pulsating",
+    "AULA_F98PRO_driver": "Pulsating",
+    "AULA_F98pro_V3_driver": "Pulsating"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "538",
+   "values": {
+    "AULA_F106Pro_driver": "Tilt",
+    "AULA_F108Pro_driver": "Tilt",
+    "AULA_F75MAX_driver": "Tilt",
+    "AULA_F98PRO_driver": "Tilt",
+    "AULA_F98pro_V3_driver": "Tilt"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "539",
+   "values": {
+    "AULA_F106Pro_driver": "Shuttle",
+    "AULA_F108Pro_driver": "Shuttle",
+    "AULA_F75MAX_driver": "Shuttle",
+    "AULA_F98PRO_driver": "Shuttle",
+    "AULA_F98pro_V3_driver": "Shuttle"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "540",
+   "values": {
+    "AULA_F106Pro_driver": "LED Off",
+    "AULA_F108Pro_driver": "LED Off",
+    "AULA_F75MAX_driver": "LED Off",
+    "AULA_F98PRO_driver": "LED Off",
+    "AULA_F98pro_V3_driver": "LED Off"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "600",
+   "values": {
+    "AULA_F106Pro_driver": "Delay setting parameters for Level 1:",
+    "AULA_F108Pro_driver": "Delay setting parameters for Level 1:",
+    "AULA_F75MAX_driver": "Delay setting parameters for Level 1:",
+    "AULA_F98PRO_driver": "Delay setting parameters for Level 1:",
+    "AULA_F98pro_V3_driver": "Delay setting parameters for Level 1:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "601",
+   "values": {
+    "AULA_F106Pro_driver": "Wired: approximately 2-3 ms, 2.4GHz: approximately 5-6 ms, Bluetooth: approximately 12-13 ms.",
+    "AULA_F108Pro_driver": "Wired: approximately 2-3 ms, 2.4GHz: approximately 5-6 ms, Bluetooth: approximately 12-13 ms.",
+    "AULA_F75MAX_driver": "Wired: approximately 2-3 ms, 2.4GHz: approximately 5-6 ms, Bluetooth: approximately 12-13 ms.",
+    "AULA_F98PRO_driver": "Wired: approximately 2-3 ms, 2.4GHz: approximately 5-6 ms, Bluetooth: approximately 12-13 ms.",
+    "AULA_F98pro_V3_driver": "Wired: approximately 2-3 ms, 2.4GHz: approximately 5-6 ms, Bluetooth: approximately 12-13 ms."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "602",
+   "values": {
+    "AULA_F106Pro_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F108Pro_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F75MAX_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F98PRO_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F98pro_V3_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "603",
+   "values": {
+    "AULA_F106Pro_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F108Pro_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F75MAX_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F98PRO_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F98pro_V3_driver": "Different switch types may lead to key chatter if the delay setting is too low."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "604",
+   "values": {
+    "AULA_F106Pro_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F108Pro_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F75MAX_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F98PRO_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F98pro_V3_driver": "If key chatter occurs, please increase the delay setting."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "605",
+   "values": {
+    "AULA_F106Pro_driver": "Delay setting parameters for Level 2:",
+    "AULA_F108Pro_driver": "Delay setting parameters for Level 2:",
+    "AULA_F75MAX_driver": "Delay setting parameters for Level 2:",
+    "AULA_F98PRO_driver": "Delay setting parameters for Level 2:",
+    "AULA_F98pro_V3_driver": "Delay setting parameters for Level 2:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "606",
+   "values": {
+    "AULA_F106Pro_driver": "Wired: approximately 5-6 ms, 2.4GHz: approximately 7-9 ms, Bluetooth: approximately 15-16 ms.",
+    "AULA_F108Pro_driver": "Wired: approximately 5-6 ms, 2.4GHz: approximately 7-9 ms, Bluetooth: approximately 15-16 ms.",
+    "AULA_F75MAX_driver": "Wired: approximately 5-6 ms, 2.4GHz: approximately 7-9 ms, Bluetooth: approximately 15-16 ms.",
+    "AULA_F98PRO_driver": "Wired: approximately 5-6 ms, 2.4GHz: approximately 7-9 ms, Bluetooth: approximately 15-16 ms.",
+    "AULA_F98pro_V3_driver": "Wired: approximately 5-6 ms, 2.4GHz: approximately 7-9 ms, Bluetooth: approximately 15-16 ms."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "607",
+   "values": {
+    "AULA_F106Pro_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F108Pro_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F75MAX_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F98PRO_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F98pro_V3_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "608",
+   "values": {
+    "AULA_F106Pro_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F108Pro_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F75MAX_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F98PRO_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F98pro_V3_driver": "Different switch types may lead to key chatter if the delay setting is too low."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "609",
+   "values": {
+    "AULA_F106Pro_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F108Pro_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F75MAX_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F98PRO_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F98pro_V3_driver": "If key chatter occurs, please increase the delay setting."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "610",
+   "values": {
+    "AULA_F106Pro_driver": "Delay setting parameters for Level 3:",
+    "AULA_F108Pro_driver": "Delay setting parameters for Level 3:",
+    "AULA_F75MAX_driver": "Delay setting parameters for Level 3:",
+    "AULA_F98PRO_driver": "Delay setting parameters for Level 3:",
+    "AULA_F98pro_V3_driver": "Delay setting parameters for Level 3:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "611",
+   "values": {
+    "AULA_F106Pro_driver": "Wired: approximately 8-9 ms, 2.4GHz: approximately 10-12 ms, Bluetooth: approximately 18-19 ms.",
+    "AULA_F108Pro_driver": "Wired: approximately 8-9 ms, 2.4GHz: approximately 10-12 ms, Bluetooth: approximately 18-19 ms.",
+    "AULA_F75MAX_driver": "Wired: approximately 8-9 ms, 2.4GHz: approximately 10-12 ms, Bluetooth: approximately 18-19 ms.",
+    "AULA_F98PRO_driver": "Wired: approximately 8-9 ms, 2.4GHz: approximately 10-12 ms, Bluetooth: approximately 18-19 ms.",
+    "AULA_F98pro_V3_driver": "Wired: approximately 8-9 ms, 2.4GHz: approximately 10-12 ms, Bluetooth: approximately 18-19 ms."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "612",
+   "values": {
+    "AULA_F106Pro_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F108Pro_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F75MAX_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F98PRO_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F98pro_V3_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "613",
+   "values": {
+    "AULA_F106Pro_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F108Pro_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F75MAX_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F98PRO_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F98pro_V3_driver": "Different switch types may lead to key chatter if the delay setting is too low."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "614",
+   "values": {
+    "AULA_F106Pro_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F108Pro_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F75MAX_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F98PRO_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F98pro_V3_driver": "If key chatter occurs, please increase the delay setting."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "615",
+   "values": {
+    "AULA_F106Pro_driver": "Delay setting parameters for Level 4:",
+    "AULA_F108Pro_driver": "Delay setting parameters for Level 4:",
+    "AULA_F75MAX_driver": "Delay setting parameters for Level 4:",
+    "AULA_F98PRO_driver": "Delay setting parameters for Level 4:",
+    "AULA_F98pro_V3_driver": "Delay setting parameters for Level 4:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "616",
+   "values": {
+    "AULA_F106Pro_driver": "Wired: approximately 13-14 ms, 2.4GHz: approximately 15-17 ms, Bluetooth: approximately 23-24 ms.",
+    "AULA_F108Pro_driver": "Wired: approximately 13-14 ms, 2.4GHz: approximately 15-17 ms, Bluetooth: approximately 23-24 ms.",
+    "AULA_F75MAX_driver": "Wired: approximately 13-14 ms, 2.4GHz: approximately 15-17 ms, Bluetooth: approximately 23-24 ms.",
+    "AULA_F98PRO_driver": "Wired: approximately 13-14 ms, 2.4GHz: approximately 15-17 ms, Bluetooth: approximately 23-24 ms.",
+    "AULA_F98pro_V3_driver": "Wired: approximately 13-14 ms, 2.4GHz: approximately 15-17 ms, Bluetooth: approximately 23-24 ms."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "617",
+   "values": {
+    "AULA_F106Pro_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F108Pro_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F75MAX_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F98PRO_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F98pro_V3_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "618",
+   "values": {
+    "AULA_F106Pro_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F108Pro_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F75MAX_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F98PRO_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F98pro_V3_driver": "Different switch types may lead to key chatter if the delay setting is too low."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "619",
+   "values": {
+    "AULA_F106Pro_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F108Pro_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F75MAX_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F98PRO_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F98pro_V3_driver": "If key chatter occurs, please increase the delay setting."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "620",
+   "values": {
+    "AULA_F106Pro_driver": "Delay setting parameters for Level 5:",
+    "AULA_F108Pro_driver": "Delay setting parameters for Level 5:",
+    "AULA_F75MAX_driver": "Delay setting parameters for Level 5:",
+    "AULA_F98PRO_driver": "Delay setting parameters for Level 5:",
+    "AULA_F98pro_V3_driver": "Delay setting parameters for Level 5:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "621",
+   "values": {
+    "AULA_F106Pro_driver": "Wired: approximately 17-18 ms, 2.4GHz: approximately 19-21 ms, Bluetooth: approximately 27-28 ms.",
+    "AULA_F108Pro_driver": "Wired: approximately 17-18 ms, 2.4GHz: approximately 19-21 ms, Bluetooth: approximately 27-28 ms.",
+    "AULA_F75MAX_driver": "Wired: approximately 17-18 ms, 2.4GHz: approximately 19-21 ms, Bluetooth: approximately 27-28 ms.",
+    "AULA_F98PRO_driver": "Wired: approximately 17-18 ms, 2.4GHz: approximately 19-21 ms, Bluetooth: approximately 27-28 ms.",
+    "AULA_F98pro_V3_driver": "Wired: approximately 17-18 ms, 2.4GHz: approximately 19-21 ms, Bluetooth: approximately 27-28 ms."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "622",
+   "values": {
+    "AULA_F106Pro_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F108Pro_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F75MAX_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F98PRO_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference.",
+    "AULA_F98pro_V3_driver": "Note: Parameters may vary due to different devices and surrounding environmental interference."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "623",
+   "values": {
+    "AULA_F106Pro_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F108Pro_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F75MAX_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F98PRO_driver": "Different switch types may lead to key chatter if the delay setting is too low.",
+    "AULA_F98pro_V3_driver": "Different switch types may lead to key chatter if the delay setting is too low."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "624",
+   "values": {
+    "AULA_F106Pro_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F108Pro_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F75MAX_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F98PRO_driver": "If key chatter occurs, please increase the delay setting.",
+    "AULA_F98pro_V3_driver": "If key chatter occurs, please increase the delay setting."
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "660",
+   "values": {
+    "AULA_F106Pro_driver": "Side Light Mode",
+    "AULA_F108Pro_driver": "Side Light Mode",
+    "AULA_F75MAX_driver": "Side Light Mode",
+    "AULA_F98PRO_driver": "Side Light Mode",
+    "AULA_F98pro_V3_driver": "Side Light Mode"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "661",
+   "values": {
+    "AULA_F106Pro_driver": "Flowing Light",
+    "AULA_F108Pro_driver": "Flowing Light",
+    "AULA_F75MAX_driver": "Flowing Light",
+    "AULA_F98PRO_driver": "Flowing Light",
+    "AULA_F98pro_V3_driver": "Flowing Light"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "662",
+   "values": {
+    "AULA_F106Pro_driver": "Red",
+    "AULA_F108Pro_driver": "Red",
+    "AULA_F75MAX_driver": "Red",
+    "AULA_F98PRO_driver": " Neon",
+    "AULA_F98pro_V3_driver": " Neon"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "663",
+   "values": {
+    "AULA_F106Pro_driver": "Yellow",
+    "AULA_F108Pro_driver": "Yellow",
+    "AULA_F75MAX_driver": "Yellow",
+    "AULA_F98PRO_driver": "Constant white",
+    "AULA_F98pro_V3_driver": "Constant white"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "664",
+   "values": {
+    "AULA_F106Pro_driver": "Green",
+    "AULA_F108Pro_driver": "Green",
+    "AULA_F75MAX_driver": "Green",
+    "AULA_F98PRO_driver": " Constantly lit red",
+    "AULA_F98pro_V3_driver": " Constantly lit red"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "665",
+   "values": {
+    "AULA_F106Pro_driver": "Ice Blue",
+    "AULA_F108Pro_driver": "Ice Blue",
+    "AULA_F75MAX_driver": "Ice Blue",
+    "AULA_F98PRO_driver": "Constant Orange",
+    "AULA_F98pro_V3_driver": "Constant Orange"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "666",
+   "values": {
+    "AULA_F106Pro_driver": "Blue",
+    "AULA_F108Pro_driver": "Blue",
+    "AULA_F75MAX_driver": "Blue",
+    "AULA_F98PRO_driver": " constant yellow",
+    "AULA_F98pro_V3_driver": " constant yellow"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "667",
+   "values": {
+    "AULA_F106Pro_driver": "Pink",
+    "AULA_F108Pro_driver": "Pink",
+    "AULA_F75MAX_driver": "Pink",
+    "AULA_F98PRO_driver": "Constantly lit green",
+    "AULA_F98pro_V3_driver": "Constantly lit green"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "668",
+   "values": {
+    "AULA_F106Pro_driver": "White",
+    "AULA_F108Pro_driver": "White",
+    "AULA_F75MAX_driver": "White",
+    "AULA_F98PRO_driver": "Constantly lit ice blue",
+    "AULA_F98pro_V3_driver": "Constantly lit ice blue"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "669",
+   "values": {
+    "AULA_F106Pro_driver": "Neon",
+    "AULA_F108Pro_driver": "Neon",
+    "AULA_F75MAX_driver": "Neon",
+    "AULA_F98PRO_driver": "Constantly lit blue",
+    "AULA_F98pro_V3_driver": "Constantly lit blue"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "670",
+   "values": {
+    "AULA_F106Pro_driver": "Off",
+    "AULA_F108Pro_driver": "Off",
+    "AULA_F75MAX_driver": "Off",
+    "AULA_F98PRO_driver": "Constant Pink",
+    "AULA_F98pro_V3_driver": "Constant Pink"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "800",
+   "values": {
+    "AULA_F106Pro_driver": "Name:",
+    "AULA_F108Pro_driver": "Name:",
+    "AULA_F75MAX_driver": "Name:",
+    "AULA_F98PRO_driver": "Name:",
+    "AULA_F98pro_V3_driver": "Name:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "801",
+   "values": {
+    "AULA_F106Pro_driver": "LED screen preview:",
+    "AULA_F108Pro_driver": "LED screen preview:",
+    "AULA_F75MAX_driver": "LED screen preview:",
+    "AULA_F98PRO_driver": "LED screen preview:",
+    "AULA_F98pro_V3_driver": "LED screen preview:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "802",
+   "values": {
+    "AULA_F106Pro_driver": "Maximum allowable 141 frames",
+    "AULA_F108Pro_driver": "Maximum allowable 141 frames",
+    "AULA_F75MAX_driver": "Maximum allowable 255 frames",
+    "AULA_F98PRO_driver": "Maximum allowable 141 frames",
+    "AULA_F98pro_V3_driver": "Maximum allowable 141 frames"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "803",
+   "values": {
+    "AULA_F106Pro_driver": "New",
+    "AULA_F108Pro_driver": "New",
+    "AULA_F75MAX_driver": "New",
+    "AULA_F98PRO_driver": "New",
+    "AULA_F98pro_V3_driver": "New"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "804",
+   "values": {
+    "AULA_F106Pro_driver": "Import",
+    "AULA_F108Pro_driver": "Import",
+    "AULA_F75MAX_driver": "Import",
+    "AULA_F98PRO_driver": "Import",
+    "AULA_F98pro_V3_driver": "Import"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "805",
+   "values": {
+    "AULA_F106Pro_driver": "Delete",
+    "AULA_F108Pro_driver": "Delete",
+    "AULA_F75MAX_driver": "Delete",
+    "AULA_F98PRO_driver": "Delete",
+    "AULA_F98pro_V3_driver": "Delete"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "806",
+   "values": {
+    "AULA_F106Pro_driver": "Image preview:",
+    "AULA_F108Pro_driver": "Image preview:",
+    "AULA_F75MAX_driver": "Image preview:",
+    "AULA_F98PRO_driver": "Image preview:",
+    "AULA_F98pro_V3_driver": "Image preview:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "807",
+   "values": {
+    "AULA_F106Pro_driver": "The number in the red circle is the delay time setting.\\nAllow 30-500M delay modification",
+    "AULA_F108Pro_driver": "The number in the red circle is the delay time setting.\\nAllow 30-500M delay modification",
+    "AULA_F75MAX_driver": "The number in the red circle is the delay time setting.\\nAllow 30-500M delay modification",
+    "AULA_F98PRO_driver": "The number in the red circle is the delay time setting.\\nAllow 30-500M delay modification",
+    "AULA_F98pro_V3_driver": "The number in the red circle is the delay time setting.\\nAllow 30-500M delay modification"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "808",
+   "values": {
+    "AULA_F106Pro_driver": "Editing",
+    "AULA_F108Pro_driver": "Editing",
+    "AULA_F75MAX_driver": "Editing",
+    "AULA_F98PRO_driver": "Editing",
+    "AULA_F98pro_V3_driver": "Editing"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "809",
+   "values": {
+    "AULA_F106Pro_driver": "Preview",
+    "AULA_F108Pro_driver": "Preview",
+    "AULA_F75MAX_driver": "Preview",
+    "AULA_F98PRO_driver": "Preview",
+    "AULA_F98pro_V3_driver": "Preview"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "810",
+   "values": {
+    "AULA_F106Pro_driver": "Text input:",
+    "AULA_F108Pro_driver": "Text input:",
+    "AULA_F75MAX_driver": "Text input:",
+    "AULA_F98PRO_driver": "Text input:",
+    "AULA_F98pro_V3_driver": "Text input:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "811",
+   "values": {
+    "AULA_F106Pro_driver": "Enter the text and press Enter to confirm",
+    "AULA_F108Pro_driver": "Enter the text and press Enter to confirm",
+    "AULA_F75MAX_driver": "Enter the text and press Enter to confirm",
+    "AULA_F98PRO_driver": "Enter the text and press Enter to confirm",
+    "AULA_F98pro_V3_driver": "Enter the text and press Enter to confirm"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "812",
+   "values": {
+    "AULA_F106Pro_driver": "Color settings:",
+    "AULA_F108Pro_driver": "Color settings:",
+    "AULA_F75MAX_driver": "Color settings:",
+    "AULA_F98PRO_driver": "Color settings:",
+    "AULA_F98pro_V3_driver": "Color settings:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "813",
+   "values": {
+    "AULA_F106Pro_driver": "Add text",
+    "AULA_F108Pro_driver": "Add text",
+    "AULA_F75MAX_driver": "Add text",
+    "AULA_F98PRO_driver": "Add text",
+    "AULA_F98pro_V3_driver": "Add text"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "814",
+   "values": {
+    "AULA_F106Pro_driver": "Create a new frame",
+    "AULA_F108Pro_driver": "Create a new frame",
+    "AULA_F75MAX_driver": "Create a new frame",
+    "AULA_F98PRO_driver": "Create a new frame",
+    "AULA_F98pro_V3_driver": "Create a new frame"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "815",
+   "values": {
+    "AULA_F106Pro_driver": "Copy previous frame",
+    "AULA_F108Pro_driver": "Copy previous frame",
+    "AULA_F75MAX_driver": "Copy previous frame",
+    "AULA_F98PRO_driver": "Copy previous frame",
+    "AULA_F98pro_V3_driver": "Copy previous frame"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "816",
+   "values": {
+    "AULA_F106Pro_driver": "Brush",
+    "AULA_F108Pro_driver": "Brush",
+    "AULA_F75MAX_driver": "Brush",
+    "AULA_F98PRO_driver": "Brush",
+    "AULA_F98pro_V3_driver": "Brush"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "817",
+   "values": {
+    "AULA_F106Pro_driver": "Eraser",
+    "AULA_F108Pro_driver": "Eraser",
+    "AULA_F75MAX_driver": "Eraser",
+    "AULA_F98PRO_driver": "Eraser",
+    "AULA_F98pro_V3_driver": "Eraser"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "818",
+   "values": {
+    "AULA_F106Pro_driver": "Delete selected frame",
+    "AULA_F108Pro_driver": "Delete selected frame",
+    "AULA_F75MAX_driver": "Delete selected frame",
+    "AULA_F98PRO_driver": "Delete selected frame",
+    "AULA_F98pro_V3_driver": "Delete selected frame"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "819",
+   "values": {
+    "AULA_F106Pro_driver": "Save GIF",
+    "AULA_F108Pro_driver": "Save GIF",
+    "AULA_F75MAX_driver": "Save GIF",
+    "AULA_F98PRO_driver": "Save GIF",
+    "AULA_F98pro_V3_driver": "Save GIF"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "820",
+   "values": {
+    "AULA_F106Pro_driver": "Export GIF",
+    "AULA_F108Pro_driver": "Export GIF",
+    "AULA_F75MAX_driver": "Export GIF",
+    "AULA_F98PRO_driver": "Export GIF",
+    "AULA_F98pro_V3_driver": "Export GIF"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "821",
+   "values": {
+    "AULA_F106Pro_driver": "Upload to keyboard",
+    "AULA_F108Pro_driver": "Upload to keyboard",
+    "AULA_F75MAX_driver": "Upload to keyboard",
+    "AULA_F98PRO_driver": "Upload to keyboard",
+    "AULA_F98pro_V3_driver": "Upload to keyboard"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "825",
+   "values": {
+    "AULA_F106Pro_driver": "Current frame delay:",
+    "AULA_F108Pro_driver": "Current frame delay:",
+    "AULA_F75MAX_driver": "Current frame delay:",
+    "AULA_F98PRO_driver": "Current frame delay:",
+    "AULA_F98pro_V3_driver": "Current frame delay:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "826",
+   "values": {
+    "AULA_F106Pro_driver": "All frame delays:",
+    "AULA_F108Pro_driver": "All frame delays:",
+    "AULA_F75MAX_driver": "All frame delays:",
+    "AULA_F98PRO_driver": "All frame delays:",
+    "AULA_F98pro_V3_driver": "All frame delays:"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "827",
+   "values": {
+    "AULA_F106Pro_driver": "Time Syns",
+    "AULA_F108Pro_driver": "Time Syns",
+    "AULA_F75MAX_driver": "Time Syns",
+    "AULA_F98PRO_driver": "Time Syns",
+    "AULA_F98pro_V3_driver": "Time Syns"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "830",
+   "values": {
+    "AULA_F106Pro_driver": "Would you like to save the current modification?",
+    "AULA_F108Pro_driver": "Would you like to save the current modification?",
+    "AULA_F75MAX_driver": "Would you like to save the current modification?",
+    "AULA_F98PRO_driver": "Would you like to save the current modification?",
+    "AULA_F98pro_V3_driver": "Would you like to save the current modification?"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "831",
+   "values": {
+    "AULA_F106Pro_driver": "Save",
+    "AULA_F108Pro_driver": "Save",
+    "AULA_F75MAX_driver": "Save",
+    "AULA_F98PRO_driver": "Save",
+    "AULA_F98pro_V3_driver": "Save"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "832",
+   "values": {
+    "AULA_F106Pro_driver": "The keyboard allows setting a maximum of 141 frames, the GIF has a total of",
+    "AULA_F108Pro_driver": "The keyboard allows setting a maximum of 141 frames, the GIF has a total of",
+    "AULA_F75MAX_driver": "The keyboard allows setting a maximum of 255 frames, the GIF has a total of",
+    "AULA_F98PRO_driver": "The keyboard allows setting a maximum of 141 frames, the GIF has a total of",
+    "AULA_F98pro_V3_driver": "The keyboard allows setting a maximum of 141 frames, the GIF has a total of"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "833",
+   "values": {
+    "AULA_F106Pro_driver": "Frames, redundant frames will not be downloaded to the keyboard",
+    "AULA_F108Pro_driver": "Frames, redundant frames will not be downloaded to the keyboard",
+    "AULA_F75MAX_driver": "Frames, redundant frames will not be downloaded to the keyboard",
+    "AULA_F98PRO_driver": "Frames, redundant frames will not be downloaded to the keyboard",
+    "AULA_F98pro_V3_driver": "Frames, redundant frames will not be downloaded to the keyboard"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "834",
+   "values": {
+    "AULA_F106Pro_driver": "Import GIF",
+    "AULA_F108Pro_driver": "Import GIF",
+    "AULA_F75MAX_driver": "Import GIF",
+    "AULA_F98PRO_driver": "Import GIF",
+    "AULA_F98pro_V3_driver": "Import GIF"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "835",
+   "values": {
+    "AULA_F106Pro_driver": "Delete current LCD data?",
+    "AULA_F108Pro_driver": "Delete current LCD data?",
+    "AULA_F75MAX_driver": "Delete current LCD data?",
+    "AULA_F98PRO_driver": "Delete current LCD data?",
+    "AULA_F98pro_V3_driver": "Delete current LCD data?"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "836",
+   "values": {
+    "AULA_F106Pro_driver": "Delete LED",
+    "AULA_F108Pro_driver": "Delete LED",
+    "AULA_F75MAX_driver": "Delete LED",
+    "AULA_F98PRO_driver": "Delete LED",
+    "AULA_F98pro_V3_driver": "Delete LED"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "837",
+   "values": {
+    "AULA_F106Pro_driver": "Delay time",
+    "AULA_F108Pro_driver": "Delay time",
+    "AULA_F75MAX_driver": "Delay time",
+    "AULA_F98PRO_driver": "Delay time",
+    "AULA_F98pro_V3_driver": "Delay time"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "838",
+   "values": {
+    "AULA_F106Pro_driver": "Please enter text",
+    "AULA_F108Pro_driver": "Please enter text",
+    "AULA_F75MAX_driver": "Please enter text",
+    "AULA_F98PRO_driver": "Please enter text",
+    "AULA_F98pro_V3_driver": "Please enter text"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "839",
+   "values": {
+    "AULA_F106Pro_driver": "Add text",
+    "AULA_F108Pro_driver": "Add text",
+    "AULA_F75MAX_driver": "Add text",
+    "AULA_F98PRO_driver": "Add text",
+    "AULA_F98pro_V3_driver": "Add text"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "840",
+   "values": {
+    "AULA_F106Pro_driver": "Please add pictures before copying",
+    "AULA_F108Pro_driver": "Please add pictures before copying",
+    "AULA_F75MAX_driver": "Please add pictures before copying",
+    "AULA_F98PRO_driver": "Please add pictures before copying",
+    "AULA_F98pro_V3_driver": "Please add pictures before copying"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "841",
+   "values": {
+    "AULA_F106Pro_driver": "Please select frame",
+    "AULA_F108Pro_driver": "Please select frame",
+    "AULA_F75MAX_driver": "Please select frame",
+    "AULA_F98PRO_driver": "Please select frame",
+    "AULA_F98pro_V3_driver": "Please select frame"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "842",
+   "values": {
+    "AULA_F106Pro_driver": "Copy frame",
+    "AULA_F108Pro_driver": "Copy frame",
+    "AULA_F75MAX_driver": "Copy frame",
+    "AULA_F98PRO_driver": "Copy frame",
+    "AULA_F98pro_V3_driver": "Copy frame"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "843",
+   "values": {
+    "AULA_F106Pro_driver": "Please add pictures before deleting",
+    "AULA_F108Pro_driver": "Please add pictures before deleting",
+    "AULA_F75MAX_driver": "Please add pictures before deleting",
+    "AULA_F98PRO_driver": "Please add pictures before deleting",
+    "AULA_F98pro_V3_driver": "Please add pictures before deleting"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "844",
+   "values": {
+    "AULA_F106Pro_driver": "Delete frame",
+    "AULA_F108Pro_driver": "Delete frame",
+    "AULA_F75MAX_driver": "Delete frame",
+    "AULA_F98PRO_driver": "Delete frame",
+    "AULA_F98pro_V3_driver": "Delete frame"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "845",
+   "values": {
+    "AULA_F106Pro_driver": "Please select frame",
+    "AULA_F108Pro_driver": "Please select frame",
+    "AULA_F75MAX_driver": "Please select frame",
+    "AULA_F98PRO_driver": "Please select frame",
+    "AULA_F98pro_V3_driver": "Please select frame"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "846",
+   "values": {
+    "AULA_F106Pro_driver": "Delete current frame?",
+    "AULA_F108Pro_driver": "Delete current frame?",
+    "AULA_F75MAX_driver": "Delete current frame?",
+    "AULA_F98PRO_driver": "Delete current frame?",
+    "AULA_F98pro_V3_driver": "Delete current frame?"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "847",
+   "values": {
+    "AULA_F106Pro_driver": "The number of frames is 0, please add it and try again!",
+    "AULA_F108Pro_driver": "The number of frames is 0, please add it and try again!",
+    "AULA_F75MAX_driver": "The number of frames is 0, please add it and try again!",
+    "AULA_F98PRO_driver": "The number of frames is 0, please add it and try again!",
+    "AULA_F98pro_V3_driver": "The number of frames is 0, please add it and try again!"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "848",
+   "values": {
+    "AULA_F106Pro_driver": "Save data and upload boot animation",
+    "AULA_F108Pro_driver": "Save data and upload boot animation",
+    "AULA_F75MAX_driver": "Save data and upload boot animation",
+    "AULA_F98PRO_driver": "Save data and upload boot animation",
+    "AULA_F98pro_V3_driver": "Save data and upload boot animation"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "850",
+   "values": {
+    "AULA_F106Pro_driver": "1. The end of frame number is the delay time;",
+    "AULA_F108Pro_driver": "1. The end of frame number is the delay time;",
+    "AULA_F75MAX_driver": "1. The end of frame number is the delay time;",
+    "AULA_F98PRO_driver": "1. The end of frame number is the delay time;",
+    "AULA_F98pro_V3_driver": "1. The end of frame number is the delay time;"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "851",
+   "values": {
+    "AULA_F106Pro_driver": "2. Right click the picture to pop up a menu to set the brush thickness, etc;",
+    "AULA_F108Pro_driver": "2. Right click the picture to pop up a menu to set the brush thickness, etc;",
+    "AULA_F75MAX_driver": "2. Right click the picture to pop up a menu to set the brush thickness, etc;",
+    "AULA_F98PRO_driver": "2. Right click the picture to pop up a menu to set the brush thickness, etc;",
+    "AULA_F98pro_V3_driver": "2. Right click the picture to pop up a menu to set the brush thickness, etc;"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "852",
+   "values": {
+    "AULA_F106Pro_driver": "3. The size of text input can be adjusted by rolling the wheel;",
+    "AULA_F108Pro_driver": "3. The size of text input can be adjusted by rolling the wheel;",
+    "AULA_F75MAX_driver": "3. The size of text input can be adjusted by rolling the wheel;",
+    "AULA_F98PRO_driver": "3. The size of text input can be adjusted by rolling the wheel;",
+    "AULA_F98pro_V3_driver": "3. The size of text input can be adjusted by rolling the wheel;"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "860",
+   "values": {
+    "AULA_F106Pro_driver": "FontSize",
+    "AULA_F108Pro_driver": "FontSize",
+    "AULA_F75MAX_driver": "FontSize",
+    "AULA_F98PRO_driver": "FontSize",
+    "AULA_F98pro_V3_driver": "FontSize"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "861",
+   "values": {
+    "AULA_F106Pro_driver": "Animation Upload",
+    "AULA_F108Pro_driver": "Animation Upload",
+    "AULA_F75MAX_driver": "Animation Upload",
+    "AULA_F98PRO_driver": "Animation Upload",
+    "AULA_F98pro_V3_driver": "Animation Upload"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "862",
+   "values": {
+    "AULA_F106Pro_driver": "Grid",
+    "AULA_F108Pro_driver": "Grid",
+    "AULA_F75MAX_driver": "Grid",
+    "AULA_F98PRO_driver": "Grid",
+    "AULA_F98pro_V3_driver": "Grid"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "863",
+   "values": {
+    "AULA_F106Pro_driver": "Frames",
+    "AULA_F108Pro_driver": "Frames",
+    "AULA_F75MAX_driver": "Frams",
+    "AULA_F98PRO_driver": "Frames",
+    "AULA_F98pro_V3_driver": "Frames"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "864",
+   "values": {
+    "AULA_F106Pro_driver": "Macro",
+    "AULA_F98PRO_driver": "Macro",
+    "AULA_F98pro_V3_driver": "Macro"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "865",
+   "values": {
+    "AULA_F106Pro_driver": "this macro is empty",
+    "AULA_F98PRO_driver": "this macro is empty",
+    "AULA_F98pro_V3_driver": "this macro is empty"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "880",
+   "values": {
+    "AULA_F106Pro_driver": "Brush-fine",
+    "AULA_F108Pro_driver": "Brush-fine",
+    "AULA_F75MAX_driver": "Brush-fine",
+    "AULA_F98PRO_driver": "Brush-fine",
+    "AULA_F98pro_V3_driver": "Brush-fine"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "881",
+   "values": {
+    "AULA_F106Pro_driver": "Brush - medium",
+    "AULA_F108Pro_driver": "Brush - medium",
+    "AULA_F75MAX_driver": "Brush - medium",
+    "AULA_F98PRO_driver": "Brush - medium",
+    "AULA_F98pro_V3_driver": "Brush - medium"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "882",
+   "values": {
+    "AULA_F106Pro_driver": "Brush - Thick",
+    "AULA_F108Pro_driver": "Brush - Thick",
+    "AULA_F75MAX_driver": "Brush - Thick",
+    "AULA_F98PRO_driver": "Brush - Thick",
+    "AULA_F98pro_V3_driver": "Brush - Thick"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "883",
+   "values": {
+    "AULA_F106Pro_driver": "Proportion 100%",
+    "AULA_F108Pro_driver": "Proportion 100%",
+    "AULA_F75MAX_driver": "Proportion 100%",
+    "AULA_F98PRO_driver": "Proportion 100%",
+    "AULA_F98pro_V3_driver": "Proportion 100%"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "884",
+   "values": {
+    "AULA_F106Pro_driver": "Clear edit",
+    "AULA_F108Pro_driver": "Clear edit",
+    "AULA_F75MAX_driver": "Clear edit",
+    "AULA_F98PRO_driver": "Clear edit",
+    "AULA_F98pro_V3_driver": "Clear edit"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "885",
+   "values": {
+    "AULA_F106Pro_driver": "Undo modification",
+    "AULA_F108Pro_driver": "Undo modification",
+    "AULA_F75MAX_driver": "Undo modification",
+    "AULA_F98PRO_driver": "Undo modification",
+    "AULA_F98pro_V3_driver": "Undo modification"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "886",
+   "values": {
+    "AULA_F106Pro_driver": "Original image",
+    "AULA_F108Pro_driver": "Original image",
+    "AULA_F75MAX_driver": "Original image",
+    "AULA_F98PRO_driver": "Original image",
+    "AULA_F98pro_V3_driver": "Original image"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "887",
+   "values": {
+    "AULA_F106Pro_driver": "Save",
+    "AULA_F108Pro_driver": "Save",
+    "AULA_F75MAX_driver": "Save",
+    "AULA_F98PRO_driver": "Save",
+    "AULA_F98pro_V3_driver": "Save"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "86",
+   "values": {
+    "AULA_F87_Wired_driver": "Custom Light"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "87",
+   "values": {
+    "AULA_F87_Wired_driver": "Start Setting"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "88",
+   "values": {
+    "AULA_F87_Wired_driver": "End Setting"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "89",
+   "values": {
+    "AULA_F87_Wired_driver": "Colors"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "100",
+   "values": {
+    "AULA_F87_Wired_driver": "Music"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "364",
+   "values": {
+    "AULA_F87_Wired_driver": "Macro"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "365",
+   "values": {
+    "AULA_F87_Wired_driver": "Fn key does not support customization"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "366",
+   "values": {
+    "AULA_F87_Wired_driver": "Custom Key"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "367",
+   "values": {
+    "AULA_F87_Wired_driver": "Keyboard can only set 12 actions"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "368",
+   "values": {
+    "AULA_F87_Wired_driver": "Key setting"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "520",
+   "values": {
+    "AULA_F87_Wired_driver": "Sine wave"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "701",
+   "values": {
+    "AULA_F87_Wired_driver": "Select All"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "702",
+   "values": {
+    "AULA_F87_Wired_driver": "Copy"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "703",
+   "values": {
+    "AULA_F87_Wired_driver": "Cut"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "704",
+   "values": {
+    "AULA_F87_Wired_driver": "Paste"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "705",
+   "values": {
+    "AULA_F87_Wired_driver": "Undo"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "706",
+   "values": {
+    "AULA_F87_Wired_driver": "Save"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "707",
+   "values": {
+    "AULA_F87_Wired_driver": "My PC"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "708",
+   "values": {
+    "AULA_F87_Wired_driver": "Lock Window"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "709",
+   "values": {
+    "AULA_F87_Wired_driver": "Show Desktop"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "710",
+   "values": {
+    "AULA_F87_Wired_driver": "Switch Window"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "711",
+   "values": {
+    "AULA_F87_Wired_driver": "Minimize All Window"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "712",
+   "values": {
+    "AULA_F87_Wired_driver": "Close Current Window"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "713",
+   "values": {
+    "AULA_F87_Wired_driver": "Minimize"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "714",
+   "values": {
+    "AULA_F87_Wired_driver": "Maximize"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "715",
+   "values": {
+    "AULA_F87_Wired_driver": "Close Application"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "671",
+   "values": {
+    "AULA_F98PRO_driver": " Respiration",
+    "AULA_F98pro_V3_driver": " Respiration"
+   }
+  },
+  {
+   "section": "KB.DIALOG",
+   "key": "672",
+   "values": {
+    "AULA_F98PRO_driver": "Extinguished",
+    "AULA_F98pro_V3_driver": "Extinguished"
+   }
+  }
+ ]
+}
