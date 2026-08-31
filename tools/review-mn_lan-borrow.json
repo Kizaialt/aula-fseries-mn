@@ -1,0 +1,355 @@
+{
+ "model": "gpt-4o",
+ "source": "tools/mn_lan.json",
+ "reviewed": 459,
+ "findings": [
+  {
+   "en": "Minimize All Window",
+   "current": "Бүх цонхыг жижигрүүлэх",
+   "suggested": "Бүх цонхыг жижиглэх",
+   "why": "The term 'жижиглэх' is more concise and commonly used for 'minimize'."
+  },
+  {
+   "en": "OK",
+   "current": "За",
+   "suggested": "OK",
+   "why": "The term 'OK' is commonly used and understood in its original form."
+  },
+  {
+   "en": "My Exclusive Config",
+   "current": "Миний тохиргоо",
+   "suggested": "Миний онцгой тохиргоо",
+   "why": "The translation should reflect 'Exclusive' to convey the uniqueness of the configuration."
+  },
+  {
+   "en": "Macro Manager",
+   "current": "Макро удирдлага",
+   "suggested": "Макро менежер",
+   "why": "The term 'удирдлага' is more commonly used for 'control', while 'менежер' is more appropriate for 'manager'."
+  },
+  {
+   "en": "Lighting Mode",
+   "current": "Гэрлийн горим",
+   "suggested": "Гэрэлтүүлгийн горим",
+   "why": "Consistent with the established term 'гэрэлтүүлэг' for 'lighting'."
+  },
+  {
+   "en": "Real-time Light",
+   "current": "Шууд гэрэлтүүлэг",
+   "suggested": "Шууд гэрэл",
+   "why": "To differentiate from 'lighting', which is 'гэрэлтүүлэг'."
+  },
+  {
+   "en": "Custom Light",
+   "current": "Өөрийн гэрэлтүүлэг",
+   "suggested": "Өөрийн гэрэл",
+   "why": "To maintain consistency with the term 'гэрэл' for 'light'."
+  },
+  {
+   "en": "Lighting Color",
+   "current": "Гэрлийн өнгө",
+   "suggested": "Гэрэлтүүлгийн өнгө",
+   "why": "Consistent with the established term 'гэрэлтүүлэг' for 'lighting'."
+  },
+  {
+   "en": "Lighting Brightness",
+   "current": "Гэрлийн тодрол",
+   "suggested": "Гэрэлтүүлгийн тодрол",
+   "why": "Consistent with the established term 'гэрэлтүүлэг' for 'lighting'."
+  },
+  {
+   "en": "Lighting Speed",
+   "current": "Гэрлийн хурд",
+   "suggested": "Гэрэлтүүлгийн хурд",
+   "why": "Consistent with the established term 'гэрэлтүүлэг' for 'lighting'."
+  },
+  {
+   "en": "Lighting Direction",
+   "current": "Гэрлийн чиглэл",
+   "suggested": "Гэрэлтүүлгийн чиглэл",
+   "why": "Consistent with the established term 'гэрэлтүүлэг' for 'lighting'."
+  },
+  {
+   "en": "Frequency Rate",
+   "current": "Давтамж",
+   "suggested": "Давтамжийн хурд",
+   "why": "The term 'Frequency Rate' is more accurately translated as 'Давтамжийн хурд' to convey the concept of rate or speed."
+  },
+  {
+   "en": "Off",
+   "current": "Унтраалттай",
+   "suggested": "Унтраах",
+   "why": "The term 'Off' is more naturally translated as 'Унтраах' to indicate the action of turning off."
+  },
+  {
+   "en": "Minimize to Tray, Don't Exit",
+   "current": "Гарахгүй, зөвхөн жижигрүүлэх",
+   "suggested": "Жижигрүүлэх, гарахгүй",
+   "why": "The translation should more directly reflect the action of minimizing without exiting."
+  },
+  {
+   "en": "Minimize, do not exit Application",
+   "current": "Гарахгүй, зөвхөн жижигрүүлэх",
+   "suggested": "Жижигрүүлэх, програмыг гарахгүй",
+   "why": "The translation should clearly indicate that the application will not exit, only minimize."
+  },
+  {
+   "en": "The new firmware has been found. For better use experience, we recommend that you upgrade the firmware",
+   "current": "Шинэ фирмвэр олдлоо. Илүү сайн ажиллагаанд зориулж шинэчлэхийг зөвлөж байна",
+   "suggested": "Шинэ фирмвэр олдлоо. Илүү сайн ажиллагаанд зориулж шинэчлэхийг зөвлөж байна.",
+   "why": "The translation should match the structure of the English source."
+  },
+  {
+   "en": "Custom Functions",
+   "current": "Өөрийн үйлдэл",
+   "suggested": "Өөрийн үйлдлүүд",
+   "why": "Plural form should be used to match the English source."
+  },
+  {
+   "en": "Left Mouse Button",
+   "current": "Хулганы зүүн товч",
+   "suggested": "Хулганы зүүн товчлуур",
+   "why": "Consistent use of 'товчлуур' for 'button'."
+  },
+  {
+   "en": "Left mouse button",
+   "current": "Хулганы зүүн товч",
+   "suggested": "Хулганы зүүн товчлуур",
+   "why": "Consistent use of 'товчлуур' for 'button'."
+  },
+  {
+   "en": "Middle Mouse Button",
+   "current": "Хулганы дунд товч",
+   "suggested": "Хулганы дунд товчлуур",
+   "why": "Consistent use of 'товчлуур' for 'button'."
+  },
+  {
+   "en": "Middle mouse button",
+   "current": "Хулганы дунд товч",
+   "suggested": "Хулганы дунд товчлуур",
+   "why": "Consistent use of 'товчлуур' for 'button'."
+  },
+  {
+   "en": "Right Mouse Button",
+   "current": "Хулганы баруун товч",
+   "suggested": "Хулганы баруун товчлуур",
+   "why": "Consistent use of 'товчлуур' for 'button'."
+  },
+  {
+   "en": "Right mouse button",
+   "current": "Хулганы баруун товч",
+   "suggested": "Хулганы баруун товчлуур",
+   "why": "Consistent use of 'товчлуур' for 'button'."
+  },
+  {
+   "en": "Previous Track",
+   "current": "Өмнөх бичлэг",
+   "suggested": "Өмнөх зам",
+   "why": "More accurate translation for 'track' in a musical context."
+  },
+  {
+   "en": "Next Track",
+   "current": "Дараах бичлэг",
+   "suggested": "Дараах зам",
+   "why": "More accurate translation for 'track' in a musical context."
+  },
+  {
+   "en": "Web Page - Refresh",
+   "current": "Хөтөч сэргээх",
+   "suggested": "Вэб хуудас сэргээх",
+   "why": "More accurate translation for 'web page'."
+  },
+  {
+   "en": "Web-Refresh",
+   "current": "Хөтөч сэргээх",
+   "suggested": "Вэб сэргээх",
+   "why": "More accurate translation for 'web'."
+  },
+  {
+   "en": "Web Page - Stop",
+   "current": "Хөтөч зогсоох",
+   "suggested": "Вэб хуудас - Зогсоох",
+   "why": "The term 'Web Page' should be translated as 'Вэб хуудас' to be more accurate."
+  },
+  {
+   "en": "Web-Stop",
+   "current": "Хөтөч зогсоох",
+   "suggested": "Вэб-Зогсоох",
+   "why": "The term 'Web' should be translated as 'Вэб' to be consistent with item 225."
+  },
+  {
+   "en": "Web Page - Back",
+   "current": "Хөтөч буцах",
+   "suggested": "Вэб хуудас - Буцах",
+   "why": "The term 'Web Page' should be translated as 'Вэб хуудас' to be more accurate."
+  },
+  {
+   "en": "Web-Backward",
+   "current": "Хөтөч буцах",
+   "suggested": "Вэб-Буцах",
+   "why": "The term 'Web' should be translated as 'Вэб' to be consistent with item 227."
+  },
+  {
+   "en": "Web Page - Forward",
+   "current": "Хөтөч урагш",
+   "suggested": "Вэб хуудас - Урагш",
+   "why": "The term 'Web Page' should be translated as 'Вэб хуудас' to be more accurate."
+  },
+  {
+   "en": "Web-Forward",
+   "current": "Хөтөч урагш",
+   "suggested": "Вэб-Урагш",
+   "why": "The term 'Web' should be translated as 'Вэб' to be consistent with item 229."
+  },
+  {
+   "en": "Web Page - Favorites",
+   "current": "Хөтөч хавчуурга",
+   "suggested": "Вэб хуудас - Хавчуурга",
+   "why": "The term 'Web Page' should be translated as 'Вэб хуудас' to be more accurate."
+  },
+  {
+   "en": "Web-Favorites",
+   "current": "Хөтөч хавчуурга",
+   "suggested": "Вэб-Хавчуурга",
+   "why": "The term 'Web' should be translated as 'Вэб' to be consistent with item 231."
+  },
+  {
+   "en": "Web Page - Search",
+   "current": "Хөтөч хайх",
+   "suggested": "Вэб хуудас - Хайх",
+   "why": "The term 'Web Page' should be translated as 'Вэб хуудас' to be more accurate."
+  },
+  {
+   "en": "Web-Search",
+   "current": "Хөтөч хайх",
+   "suggested": "Вэб-Хайх",
+   "why": "The term 'Web' should be translated as 'Вэб' to be consistent with item 233."
+  },
+  {
+   "en": "Static On",
+   "current": "Тогтмол асаалт",
+   "suggested": "Тогтмол асаалттай",
+   "why": "The translation 'Тогтмол асаалт' is slightly ambiguous. 'Тогтмол асаалттай' is more precise, indicating the state of being on."
+  },
+  {
+   "en": "Steady",
+   "current": "Тогтмол асаалт",
+   "suggested": "Тогтвортой",
+   "why": "The term 'Steady' is better translated as 'Тогтвортой' to convey stability rather than just being on."
+  },
+  {
+   "en": "Stellar era",
+   "current": "Оддын эрин үе",
+   "suggested": "Оддын эрин",
+   "why": "The term 'эрин' already implies an era, making 'үе' redundant."
+  },
+  {
+   "en": "Custom mode",
+   "current": "Өөрийн горим",
+   "suggested": "Тохируулсан горим",
+   "why": "The term 'Өөрийн' is less precise than 'Тохируулсан' for 'Custom'."
+  },
+  {
+   "en": "Through wormhole",
+   "current": "Цоорхойгоор дамжих",
+   "suggested": "Хорхой нүхээр дамжих",
+   "why": "The term 'Цоорхой' is not the correct translation for 'wormhole'."
+  },
+  {
+   "en": "Neon_stream",
+   "current": "Неон урсгал",
+   "suggested": "Неон_урсгал",
+   "why": "The underscore should be preserved in the translation."
+  },
+  {
+   "en": "Streamer",
+   "current": "Урсгал",
+   "suggested": "Стример",
+   "why": "The term 'Стример' is more commonly used for 'Streamer' in gaming contexts."
+  },
+  {
+   "en": "Flowing light and color",
+   "current": "Урсах гэрэл өнгө",
+   "suggested": "Урсах гэрэл ба өнгө",
+   "why": "The conjunction 'ба' is needed to connect 'light' and 'color'."
+  },
+  {
+   "en": "Shadow_disappear",
+   "current": "Мөр үлдээхгүй",
+   "suggested": "Сүүдэр алга болох",
+   "why": "The translation should reflect 'Shadow disappear' more directly."
+  },
+  {
+   "en": "Launch",
+   "current": "Хөөрөх",
+   "suggested": "Эхлүүлэх",
+   "why": "The term 'Launch' in a gaming context is more naturally translated as 'Эхлүүлэх' rather than 'Хөөрөх', which implies physical ascent."
+  },
+  {
+   "en": "Shuttle",
+   "current": "Нааш цааш",
+   "suggested": "Шаттл",
+   "why": "The term 'Shuttle' in a gaming context is often left untranslated or transliterated as 'Шаттл' to maintain consistency with gaming terminology."
+  },
+  {
+   "en": "Delay setting parameters for Level 1:",
+   "current": "1-р түвшний саатлын утга:",
+   "suggested": "1-р түвшний саатлын тохиргоо:",
+   "why": "The term 'setting parameters' is more accurately translated as 'тохиргоо' rather than 'утга', which means 'value'."
+  },
+  {
+   "en": "Delay setting parameters for Level 2:",
+   "current": "2-р түвшний саатлын утга:",
+   "suggested": "2-р түвшний саатлын тохиргоо:",
+   "why": "Consistency with the suggested translation for item 367."
+  },
+  {
+   "en": "Delay setting parameters for Level 3:",
+   "current": "3-р түвшний саатлын утга:",
+   "suggested": "3-р түвшний саатлын тохиргоо:",
+   "why": "Consistency with the suggested translation for item 367."
+  },
+  {
+   "en": "Delay setting parameters for Level 4:",
+   "current": "4-р түвшний саатлын утга:",
+   "suggested": "4-р түвшний саатлын тохиргоо:",
+   "why": "Consistency with the suggested translation for item 367."
+  },
+  {
+   "en": "Delay setting parameters for Level 5:",
+   "current": "5-р түвшний саатлын утга:",
+   "suggested": "5-р түвшний саатлын тохиргоо:",
+   "why": "Consistency with the suggested translation for item 367."
+  },
+  {
+   "en": "The number in the red circle is the delay time setting.\\nAllow 30-500M delay modification",
+   "current": "Улаан тойрог доторх тоо нь саатлын хугацаа.\\n30-500 хооронд өөрчилж болно",
+   "suggested": "Улаан тойрог доторх тоо нь саатлын хугацаа.\\n30-500M хооронд өөрчилж болно",
+   "why": "The unit 'M' should be included as it is part of the original text."
+  },
+  {
+   "en": "Upload to keyboard",
+   "current": "Гар руу илгээх",
+   "suggested": "Гар руу байршуулах",
+   "why": "The term 'илгээх' is more commonly used for sending messages or files, while 'байршуулах' is more appropriate for uploading data to a device."
+  },
+  {
+   "en": "Time Syns",
+   "current": "Цаг синхрончлох",
+   "suggested": "Цагийн синхрончлол",
+   "why": "The term 'синхрончлох' is a verb form, while 'синхрончлол' is the noun form, which fits better in this context."
+  },
+  {
+   "en": "Spacetime Warp",
+   "current": "Орон зай цаг хугацааны муруйлт",
+   "suggested": "Орон зай-цаг хугацааны муруйлт",
+   "why": "The translation should use a hyphen to connect 'орон зай' and 'цаг хугацаа' for clarity and consistency."
+  },
+  {
+   "en": "The number in the red circle is the delay time setting.\nAllow 30-500M delay modification",
+   "current": "Улаан тойрог доторх тоо нь саатлын хугацаа.\n30-500M хооронд өөрчилж болно",
+   "suggested": "Улаан тойрог доторх тоо нь саатлын хугацааны тохиргоо.\n30-500M хооронд өөрчлөх боломжтой",
+   "why": "The translation should specify 'саатлын хугацааны тохиргоо' for clarity, and 'өөрчилж болно' should be 'өөрчлөх боломжтой' for a more natural expression."
+  }
+ ]
+}

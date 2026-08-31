@@ -50,6 +50,36 @@ Left deliberately untranslated because Mongolian gamers know them in English:
   Rapid Trigger, SOCD, DKS, MT, TGL, RS, RKRT, DPI, LOD, Fn, RGB, USB, 2.4G
 """
 
+
+BORROW = """You are reviewing Mongolian (Cyrillic) UI strings for a gaming
+keyboard/mouse driver sold in Mongolia. The audience is gamers, teens to
+thirties, who game in English-language titles and read Mongolian.
+
+This pass has ONE job: find strings that are OVER-TRANSLATED. A Mongolian
+coinage that is technically correct but that no Mongolian gamer would ever say
+is worse than the English word they already use every day. Flag those.
+
+Verdict "better" ONLY when the English term (or its normal Cyrillic
+transliteration) is what this audience actually uses in speech and in other
+gaming software. Typical cases: hardware and gaming jargon, sensor features,
+performance settings, mode names that exist as product features.
+
+Do NOT touch:
+  - ordinary UI verbs and nouns: save, cancel, delete, open, close, key,
+    keyboard, mouse, colour, speed, brightness, light, time, name
+  - full sentences, warnings, instructions - those must read as Mongolian
+  - anything already in English or already a transliteration
+
+Prefer the bare English form (DPI, Rapid Trigger, Motion Sync) over a
+Cyrillic respelling, unless the Cyrillic form is clearly the common one
+(профайл, макро, неон, фирмвэр, драйвер).
+
+Reply JSON only: {"items":[{"i":<index>,"verdict":"ok"|"better",
+"suggestion":"...","why":"<who says it this way>"}]}
+
+Be conservative. If in doubt, "ok". A page of half-English UI is a worse
+outcome than a few slightly formal Mongolian words."""
+
 SYSTEM = """You are reviewing Mongolian (Cyrillic) UI strings for a gaming
 keyboard and mouse driver sold in Mongolia. The audience is gamers, mostly
 teens to thirties, who cannot read English comfortably.
@@ -140,6 +170,8 @@ def main():
     ap.add_argument('--batch', type=int, default=40)
     ap.add_argument('--limit', type=int, default=0, help='review only the first N (for a cheap trial)')
     ap.add_argument('--english', help='vendor en/text.xml, for files keyed by tc_* names')
+    ap.add_argument('--mode', choices=['accuracy', 'borrow'], default='accuracy',
+                    help='accuracy = is it correct; borrow = is it over-translated')
     ap.add_argument('--url', default=os.environ.get('OPENAI_BASE_URL',
                                                     'https://api.openai.com/v1') + '/chat/completions')
     args = ap.parse_args()
@@ -199,8 +231,8 @@ def main():
         print('  %d/%d reviewed, %d suggestions so far'
               % (min(start + args.batch, len(items)), len(items), len(findings)))
 
-    out = os.path.join(ROOT, 'tools', 'review-%s.json'
-                       % os.path.splitext(os.path.basename(args.source))[0])
+    out = os.path.join(ROOT, 'tools', 'review-%s-%s.json'
+                       % (os.path.splitext(os.path.basename(args.source))[0], args.mode))
     with io.open(out, 'w', encoding='utf-8') as fh:
         json.dump({'model': args.model, 'source': args.source,
                    'reviewed': len(items), 'findings': findings}, fh,
