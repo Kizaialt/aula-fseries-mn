@@ -194,8 +194,16 @@ def main():
         work = os.path.join(WORK, model)
         shutil.rmtree(work, ignore_errors=True)
         os.makedirs(work, exist_ok=True)
-        subprocess.run([inno, '--extract', '--output-dir', work, '--silent', installer],
-                       check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        # Not every F-series installer is Inno; some are NSIS or a self-
+        # extracting archive. Those are simply not this driver family, so skip
+        # them rather than aborting the whole run.
+        res = subprocess.run([inno, '--extract', '--output-dir', work, '--silent', installer],
+                             stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+        if res.returncode != 0:
+            why = (res.stderr or b'').decode('utf-8', 'replace').strip().splitlines()
+            print('    not an Inno installer - skipped (%s)'
+                  % (why[-1][:70] if why else 'innoextract exit %d' % res.returncode))
+            continue
 
         en_xml = os.path.join(work, 'app', 'Text', 'en', 'text.xml')
         cfg = os.path.join(work, 'app', 'Cfg.ini')

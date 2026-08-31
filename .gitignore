@@ -1,4 +1,6 @@
 installers/
 .work/
+.work2/
+dist-auto/
 *.pyc
 __pycache__/
