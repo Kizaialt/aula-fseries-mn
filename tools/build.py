@@ -141,7 +141,7 @@ README = u"""{title} — Монгол хэлний багц
 
 ХЭРХЭН СУУЛГАХ:
   1. Эхлээд AULA-гийн жинхэнэ драйверыг суулгасан байх ёстой.
-  2. "install-mn.bat" дээр хоёр товшино уу.
+  2. "Install_Suulgah.bat" дээр хоёр товшино уу.
      (Windows администратор эрх асууна — Тийм гэж хариулна уу)
   3. Драйверыг нээгээд:  Config → Language → Монгол
 
@@ -233,8 +233,11 @@ def main():
         open(os.path.join(ref_dir, 'Text', LANG_DIR, 'text.xml'), 'wb').write(xml_bytes)
         patch_cfg(cfg, os.path.join(ref_dir, 'Cfg.ini'))
 
-        for name in ('install-mn.bat', 'install-mn.ps1'):
-            shutil.copy(os.path.join(ROOT, 'pack', name), os.path.join(pack_dir, name))
+        # one launcher name everywhere: the customer is always told to run Install_Suulgah.bat
+        shutil.copy(os.path.join(ROOT, 'pack', 'launcher-mn.bat'), os.path.join(pack_dir, 'Install_Suulgah.bat'))
+        shutil.copy(os.path.join(ROOT, 'pack', 'install-mn.ps1'), os.path.join(pack_dir, 'install-mn.ps1'))
+        if os.path.exists(os.path.join(pack_dir, 'install-mn.bat')):
+            os.remove(os.path.join(pack_dir, 'install-mn.bat'))
         write_readme(pack_dir, title or model)
 
         zip_path = os.path.join(DIST, '%s_mn' % model)
@@ -248,7 +251,7 @@ def main():
         for model, title, n, _z in built:
             print('  %-28s %-24s %d strings' % (model, title, n))
         print('\nEach zip is what you hand a customer: they install AULA\'s own')
-        print('driver first, then run install-mn.bat and pick Монгол in Config.')
+        print('driver first, then run Install_Suulgah.bat and pick Монгол in Config.')
     else:
         print('Nothing built.')
 
