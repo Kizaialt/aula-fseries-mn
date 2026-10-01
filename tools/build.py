@@ -95,6 +95,9 @@ def build_xml(entries, mn, overrides, model):
             if value is None or not str(value).strip():
                 value = english             # untranslated: fall back to English
                 missing.append((key, english))
+        # The vendor's own files have no bare LF anywhere, including inside a
+        # value; a newline carried in from the JSON must become CRLF to match.
+        value = str(value).replace('\r\n', '\n').replace('\n', '\r\n')
         lines.append('\t\t<%s>%s</%s>' % (key, xml_escape(value), key))
     if current is not None:
         lines.append('\t</%s>' % current)

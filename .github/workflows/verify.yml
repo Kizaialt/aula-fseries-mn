@@ -1,0 +1,52 @@
+name: Verify language pack
+
+# The checking logic lives in ONE place - Kizaialt/driver, tools/qa/ - so a fix
+# to a check does not have to be copied into three repos.  This workflow clones
+# that hub and points it at this checkout.
+#
+# It cannot rebuild the pack: installers/ and .work*/ hold vendor binaries and
+# are gitignored on purpose.  It verifies the committed artifacts against
+# tools/vendor-baseline.json, which records the vendor's key sets as text.
+# Regenerate that file with, from a checkout that has the installers:
+#   python ../driver/tools/qa/snapshot_vendor.py --repo .
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  schedule:
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: repo
+
+      - name: Get the shared QA tools
+        run: git clone --depth 1 https://github.com/Kizaialt/driver.git qa-hub
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Baseline is present and not empty
+        run: |
+          test -f repo/tools/vendor-baseline.json
+          python -c "import json,sys; d=json.load(open('repo/tools/vendor-baseline.json',encoding='utf-8')); n=len(d.get('models',{})); print('%d model(s) in the baseline' % n); sys.exit(0 if n else 'baseline records no models')"
+
+      - name: Verify shipped locale artifacts
+        run: python qa-hub/tools/qa/verify_artifacts.py --repo repo --verbose
+
+      - name: Terminology policy
+        run: python qa-hub/tools/qa/lint_glossary.py --repo repo
+
+      - name: String-length overflow report (advisory)
+        if: always()
+        run: python qa-hub/tools/qa/length_report.py --repo repo --top 25

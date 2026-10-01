@@ -104,7 +104,7 @@ def patch_config(src_path, supports_default):
 
     if 'value="%s"' % LCID not in text:
         text = re.sub(r'(<language\.info[^>]*>)',
-                      r'\1\n\t\t<lan value="%s" />' % LCID, text, count=1)
+                      r'\1\r\n\t\t<lan value="%s" />' % LCID, text, count=1)
         note.append('listed %s' % LCID)
 
     if supports_default:

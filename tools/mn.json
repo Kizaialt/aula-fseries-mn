@@ -138,7 +138,7 @@
   "tc_ms6": "Polling Rate солих",
   "tc_ms7": "Горим солих",
   "tc_ms8": "DPI давталт",
-  "tc_ms9": "Галын товч",
+  "tc_ms9": "Галын товчлуур",
   "tc_ms10": "Гал нээх тоо ( 0-255 )",
   "tc_ms11": "Гал нээх зай ( 5-255 )",
   "tc_ms12": "Тайлбар: Зайн утга бага байх тусам гал нээх хурд өснө.",
@@ -294,7 +294,7 @@
   "tc_yun48": "",
   "_overrides": {
     "_comment": "A few keys carry a different meaning depending on the model, so they are matched on the model's own English text. Everything else is matched on the key alone.",
-    "tc_ms23|Debounce": "Товчлуурын доргилт арилгах",
+    "tc_ms23|Debounce": "Debounce",
     "tc_ms23|Notify": "Мэдэгдэл",
     "tc_kb6|FN": "FN",
     "tc_kb6|FN1": "FN1",
@@ -306,6 +306,8 @@
     "tc_music9|Smoothness": "Зөөлрүүлэлт",
     "tc_music8|Efeect": "Эффект",
     "tc_music8|Effect": "Эффект",
-    "tc_update1|A new version of firmware is detected, do you want to update or not?\n(Note: During the update process, please do not close the window and unplug the keyboard. After the successful upgrade, please manually unplug the keyboard once)": "Шинэ фирмвэр илэрлээ. Шинэчлэх үү?\n(Анхаар: Шинэчлэх явцад цонхыг хаах болон гараа салгаж болохгүй. Амжилттай шинэчилсний дараа гараа нэг удаа салгаад дахин залгана уу)"
+    "tc_update1|A new version of firmware is detected, do you want to update or not?\n(Note: During the update process, please do not close the window and unplug the keyboard. After the successful upgrade, please manually unplug the keyboard once)": "Шинэ фирмвэр илэрлээ. Шинэчлэх үү?\n(Анхаар: Шинэчлэх явцад цонхыг хаах болон гараа салгаж болохгүй. Амжилттай шинэчилсний дараа гараа нэг удаа салгаад дахин залгана уу)",
+    "tc_yun9|Download succeeded, do you want to view it now": "Амжилттай татагдлаа. Одоо үзэх үү?",
+    "tc_yun10|保存该配置到云空间": "Энэ тохиргоог үүлэн санд хадгалах"
   }
 }
