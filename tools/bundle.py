@@ -35,7 +35,7 @@ README = u"""{title} — Монгол хэлтэй драйвер
 
 НЭГ ТОВШИЛТООР СУУЛГАХ:
 
-  "Суулгах.bat" дээр хоёр товшино уу.
+  "Install_Suulgah.bat" дээр хоёр товшино уу.
 
   Дараа нь:
     1. AULA-гийн суулгагч нээгдэнэ — Next / Install дарж дуусгана
@@ -70,7 +70,9 @@ README = u"""{title} — Монгол хэлтэй драйвер
 Асуудал гарвал Peaklab-т хандана уу.
 """
 
-BAT = '@echo off\r\nchcp 65001 >nul\r\npowershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0install-auto.ps1"\r\npause\r\n'
+# The launcher is a file (pack/launcher.bat): UTF-8, CRLF, no BOM. tools/qa/test_installers.ps1 checks it.
+BAT = io.open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'pack', 'launcher.bat'),
+              encoding='utf-8', newline='').read()
 
 
 def sha256(path):
@@ -125,7 +127,7 @@ def main():
         shutil.copy(xml, os.path.join(out, 'lang', 'text.xml'))
         shutil.copy(os.path.join(ROOT, 'pack', 'install-auto.ps1'),
                     os.path.join(out, 'install-auto.ps1'))
-        with io.open(os.path.join(out, 'Суулгах.bat'), 'w',
+        with io.open(os.path.join(out, 'Install_Suulgah.bat'), 'w',
                      encoding='utf-8', newline='') as fh:
             fh.write(BAT)
 
@@ -147,7 +149,7 @@ def main():
         print('Built %d one-click bundle(s):' % len(built))
         for model, title, size, _d in built:
             print('  %-26s %-26s %.1f MB' % (model, title, size / 1048576.0))
-        print('\nCustomer flow: download one zip -> Суулгах.bat -> click through')
+        print('\nCustomer flow: download one zip -> Install_Suulgah.bat -> click through')
         print('AULA\'s wizard -> driver opens in Mongolian.')
     else:
         print('Nothing built.')

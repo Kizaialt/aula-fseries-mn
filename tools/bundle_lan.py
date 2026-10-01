@@ -7,7 +7,7 @@ One-click bundles for the DeviceDriver.exe / language/*.lan family.
     python tools/bundle_lan.py installers/*.exe    # then wrap them
 
 Each zip holds AULA's own installer, our 1104.lan and a script. The customer
-downloads one file, double-clicks Суулгах.bat, clicks through AULA's wizard,
+downloads one file, double-clicks Install_Suulgah.bat, clicks through AULA's wizard,
 and the driver opens in Mongolian.
 
 The bundled installer is AULA's original byte for byte; its SHA-256 is printed
@@ -32,7 +32,7 @@ README = u"""{title} — Монгол хэлтэй драйвер
 
 НЭГ ТОВШИЛТООР СУУЛГАХ:
 
-  "Суулгах.bat" дээр хоёр товшино уу.
+  "Install_Suulgah.bat" дээр хоёр товшино уу.
 
   Дараа нь:
     1. AULA-гийн суулгагч нээгдэнэ — Next / Install дарж дуусгана
@@ -66,7 +66,9 @@ README = u"""{title} — Монгол хэлтэй драйвер
 Асуудал гарвал Peaklab-т хандана уу.
 """
 
-BAT = '@echo off\r\nchcp 65001 >nul\r\npowershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0install-auto.ps1"\r\npause\r\n'
+# The launcher is a file (pack/launcher.bat): UTF-8, CRLF, no BOM. tools/qa/test_installers.ps1 checks it.
+BAT = io.open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'pack', 'launcher.bat'),
+              encoding='utf-8', newline='').read()
 
 AUTO_LINE = 'Драйверыг нээхэд шууд МОНГОЛ хэл дээр гарна.'
 MANUAL_LINE = ('Драйверыг нээгээд Settings -> Language -> Монгол сонгоно уу.\n'
@@ -119,7 +121,7 @@ def main():
         shutil.copy(lan, os.path.join(out, 'lang', '1104.lan'))
         shutil.copy(os.path.join(ROOT, 'pack', 'install-auto-lan.ps1'),
                     os.path.join(out, 'install-auto.ps1'))
-        with io.open(os.path.join(out, 'Суулгах.bat'), 'w', encoding='utf-8', newline='') as fh:
+        with io.open(os.path.join(out, 'Install_Suulgah.bat'), 'w', encoding='utf-8', newline='') as fh:
             fh.write(BAT)
 
         digest = sha256(installer)
