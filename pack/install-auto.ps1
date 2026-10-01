@@ -205,7 +205,10 @@ foreach ($drv in $found) {
             $new += $lines[$i]
             if ($i -eq ($last - 1)) { $new += $entry }
         }
-        [IO.File]::WriteAllText($cfg, ($new -join "`r`n") + "`r`n", [Text.Encoding]::Unicode)
+        # No extra "`r`n": $lines already ends with the empty element the file's own
+        # final newline produced, so joining reproduces the original ending exactly.
+        # (A trailing newline added here was a change to AULA's file nobody asked for.)
+        [IO.File]::WriteAllText($cfg, ($new -join "`r`n"), [Text.Encoding]::Unicode)
         Say "   + Cfg.ini: $entry" Gray
     }
 

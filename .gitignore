@@ -4,3 +4,7 @@ installers/
 dist-auto/
 *.pyc
 __pycache__/
+
+# one-file installers embed the vendor installer: release assets, never committed
+dist-exe/
+dist-exe-test/

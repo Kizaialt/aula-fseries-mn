@@ -155,7 +155,8 @@ foreach ($drv in $found) {
             $new += $lines[$i]
             if ($i -eq ($lastLang - 1)) { $new += $entry }
         }
-        [IO.File]::WriteAllText($cfg, ($new -join "`r`n") + "`r`n", [Text.Encoding]::Unicode)
+        # No extra "`r`n": see install-auto.ps1 - joining already reproduces the file's own ending.
+        [IO.File]::WriteAllText($cfg, ($new -join "`r`n"), [Text.Encoding]::Unicode)
         Say "   + Cfg.ini: $entry  (нөөц: Cfg.ini.bak)" Gray
     }
     $patched++
