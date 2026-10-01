@@ -70,7 +70,7 @@ README = u"""{title} — Монгол хэлтэй драйвер
 Асуудал гарвал Peaklab-т хандана уу.
 """
 
-BAT = '@echo off\r\nchcp 65001 >nul\r\npowershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0install-auto.ps1"\r\n'
+BAT = '@echo off\r\nchcp 65001 >nul\r\npowershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0install-auto.ps1"\r\npause\r\n'
 
 
 def sha256(path):

@@ -50,3 +50,22 @@ jobs:
       - name: String-length overflow report (advisory)
         if: always()
         run: python qa-hub/tools/qa/length_report.py --repo repo --top 25
+
+  # The install scripts customers actually double-click. Run on Windows
+  # PowerShell 5.1 (what `shell: powershell` is) - see Kizaialt/driver,
+  # tools/qa/test_installers.ps1, for why that exact version matters.
+  installers:
+    name: Install scripts run on Windows PowerShell 5.1
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: aula-fseries-mn
+      - name: Get the QA tools and the other pack repo
+        shell: bash
+        run: |
+          git clone --depth 1 https://github.com/Kizaialt/driver.git qa-hub
+          git clone --depth 1 https://github.com/Kizaialt/kysona-m600-mn.git kysona-m600-mn
+      - name: Run every install script in a sandbox
+        shell: powershell
+        run: powershell -NoProfile -ExecutionPolicy Bypass -File qa-hub/tools/qa/test_installers.ps1 -Root "$PWD"
